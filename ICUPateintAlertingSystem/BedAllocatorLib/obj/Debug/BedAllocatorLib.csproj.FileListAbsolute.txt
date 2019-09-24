@@ -1,0 +1,13 @@
+C:\Users\320067257\source\repos\ICUPateintAlertingSystem\BedAllocatorLib\bin\Debug\BedAllocatorLib.dll
+C:\Users\320067257\source\repos\ICUPateintAlertingSystem\BedAllocatorLib\bin\Debug\BedAllocatorLib.pdb
+C:\Users\320067257\source\repos\ICUPateintAlertingSystem\BedAllocatorLib\obj\Debug\BedAllocatorLib.csprojAssemblyReference.cache
+C:\Users\320067257\source\repos\ICUPateintAlertingSystem\BedAllocatorLib\obj\Debug\BedAllocatorLib.csproj.CoreCompileInputs.cache
+C:\Users\320067257\source\repos\ICUPateintAlertingSystem\BedAllocatorLib\obj\Debug\BedAllocatorLib.dll
+C:\Users\320067257\source\repos\ICUPateintAlertingSystem\BedAllocatorLib\obj\Debug\BedAllocatorLib.pdb
+C:\Users\320067257\source\repos\ICUPateintAlertingSystem\BedAllocatorLib\bin\Debug\BedsDataLib.dll
+C:\Users\320067257\source\repos\ICUPateintAlertingSystem\BedAllocatorLib\bin\Debug\ICUBedsConfigurationLib.dll
+C:\Users\320067257\source\repos\ICUPateintAlertingSystem\BedAllocatorLib\bin\Debug\PatientInfoLib.dll
+C:\Users\320067257\source\repos\ICUPateintAlertingSystem\BedAllocatorLib\bin\Debug\BedsDataLib.pdb
+C:\Users\320067257\source\repos\ICUPateintAlertingSystem\BedAllocatorLib\bin\Debug\ICUBedsConfigurationLib.pdb
+C:\Users\320067257\source\repos\ICUPateintAlertingSystem\BedAllocatorLib\bin\Debug\PatientInfoLib.pdb
+C:\Users\320067257\source\repos\ICUPateintAlertingSystem\BedAllocatorLib\obj\Debug\BedAllocatorLib.csproj.CopyComplete

@@ -1,0 +1,6 @@
+C:\Users\320067257\source\repos\ICUPateintAlertingSystem\BedsDataLib\bin\Debug\BedsDataLib.dll
+C:\Users\320067257\source\repos\ICUPateintAlertingSystem\BedsDataLib\bin\Debug\BedsDataLib.pdb
+C:\Users\320067257\source\repos\ICUPateintAlertingSystem\BedsDataLib\obj\Debug\BedsDataLib.csprojAssemblyReference.cache
+C:\Users\320067257\source\repos\ICUPateintAlertingSystem\BedsDataLib\obj\Debug\BedsDataLib.csproj.CoreCompileInputs.cache
+C:\Users\320067257\source\repos\ICUPateintAlertingSystem\BedsDataLib\obj\Debug\BedsDataLib.dll
+C:\Users\320067257\source\repos\ICUPateintAlertingSystem\BedsDataLib\obj\Debug\BedsDataLib.pdb

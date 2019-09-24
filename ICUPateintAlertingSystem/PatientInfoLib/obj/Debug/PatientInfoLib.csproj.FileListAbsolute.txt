@@ -1,0 +1,6 @@
+C:\Users\320067257\source\repos\ICUPateintAlertingSystem\PatientInfoLib\bin\Debug\PatientInfoLib.dll
+C:\Users\320067257\source\repos\ICUPateintAlertingSystem\PatientInfoLib\bin\Debug\PatientInfoLib.pdb
+C:\Users\320067257\source\repos\ICUPateintAlertingSystem\PatientInfoLib\obj\Debug\PatientInfoLib.csproj.CoreCompileInputs.cache
+C:\Users\320067257\source\repos\ICUPateintAlertingSystem\PatientInfoLib\obj\Debug\PatientInfoLib.dll
+C:\Users\320067257\source\repos\ICUPateintAlertingSystem\PatientInfoLib\obj\Debug\PatientInfoLib.pdb
+C:\Users\320067257\source\repos\ICUPateintAlertingSystem\PatientInfoLib\obj\Debug\PatientInfoLib.csprojAssemblyReference.cache
