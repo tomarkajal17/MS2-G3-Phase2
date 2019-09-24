@@ -1,0 +1,9 @@
+C:\Users\320068391\source\repos\ICUPatientMonitorApp\ICUPatientMonitorModuleLib\bin\Debug\ICUPatientMonitorModuleLib.dll
+C:\Users\320068391\source\repos\ICUPatientMonitorApp\ICUPatientMonitorModuleLib\bin\Debug\ICUPatientMonitorModuleLib.pdb
+C:\Users\320068391\source\repos\ICUPatientMonitorApp\ICUPatientMonitorModuleLib\bin\Debug\MvvmUtilityLib.dll
+C:\Users\320068391\source\repos\ICUPatientMonitorApp\ICUPatientMonitorModuleLib\bin\Debug\MvvmUtilityLib.pdb
+C:\Users\320068391\source\repos\ICUPatientMonitorApp\ICUPatientMonitorModuleLib\obj\Debug\ICUPatientMonitorModuleLib.csprojAssemblyReference.cache
+C:\Users\320068391\source\repos\ICUPatientMonitorApp\ICUPatientMonitorModuleLib\obj\Debug\ICUPatientMonitorModuleLib.csproj.CoreCompileInputs.cache
+C:\Users\320068391\source\repos\ICUPatientMonitorApp\ICUPatientMonitorModuleLib\obj\Debug\ICUPatientMonitorModuleLib.csproj.CopyComplete
+C:\Users\320068391\source\repos\ICUPatientMonitorApp\ICUPatientMonitorModuleLib\obj\Debug\ICUPatientMonitorModuleLib.dll
+C:\Users\320068391\source\repos\ICUPatientMonitorApp\ICUPatientMonitorModuleLib\obj\Debug\ICUPatientMonitorModuleLib.pdb
