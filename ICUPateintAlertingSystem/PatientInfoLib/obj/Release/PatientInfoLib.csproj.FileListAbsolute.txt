@@ -1,0 +1,6 @@
+C:\Users\320068391\Desktop\Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\PatientInfoLib\bin\Release\PatientInfoLib.dll
+C:\Users\320068391\Desktop\Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\PatientInfoLib\bin\Release\PatientInfoLib.pdb
+C:\Users\320068391\Desktop\Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\PatientInfoLib\obj\Release\PatientInfoLib.csprojAssemblyReference.cache
+C:\Users\320068391\Desktop\Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\PatientInfoLib\obj\Release\PatientInfoLib.csproj.CoreCompileInputs.cache
+C:\Users\320068391\Desktop\Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\PatientInfoLib\obj\Release\PatientInfoLib.dll
+C:\Users\320068391\Desktop\Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\PatientInfoLib\obj\Release\PatientInfoLib.pdb

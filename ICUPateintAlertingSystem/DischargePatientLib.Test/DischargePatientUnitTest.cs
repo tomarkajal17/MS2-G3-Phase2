@@ -10,7 +10,7 @@ namespace DischargePatientLib.Test
     [TestClass]
     public class DischargePatientUnitTest
     {
-        [TestMethod]
+        [TestMethod][ExpectedException(typeof(ArgumentNullException))]
         public void Given_PatientID_When_DischargeandDeallocateBed_Then_Patient_Is_Not_Available()
         {
             int patientID = 1;
@@ -21,11 +21,28 @@ namespace DischargePatientLib.Test
             PatientInfo newPatient = new PatientInfo();
             patientsList.Add(newPatient);
             DischargePatient dischargePatient = new DischargePatient();
-            int initial_size = patientsList.Count;
-            dischargePatient.DischargeandDeallocateBed(patientID,listOfBeds,patientsList);
-            int actual_value = patientsList.Count;
-            int expected_value = initial_size;
-            Assert.AreEqual(actual_value, expected_value);
+            dischargePatient.DischargeandDeallocateBed(patientID, listOfBeds, patientsList);     
         }
+        [TestMethod]
+        public void Given_PatientID_When_DischargeandDeallocateBed_Then_Patient_List_Size_Will_Decreazed_By_1()
+        {
+            int patientID = 1;
+            List<BedData> listOfBeds = new List<BedData>();
+            BedData bedData = new BedData();
+            bedData.BedAvailability = false;
+            bedData.PatientID = patientID;
+            listOfBeds.Add(bedData);
+            List<PatientInfo> listOfPatient = new List<PatientInfo>();
+            PatientInfo newPatient = new PatientInfo();
+            newPatient.PatientID = patientID;
+            newPatient.BedID = 1;
+            listOfPatient.Add(newPatient);
+            DischargePatient dischargePatient = new DischargePatient();
+            dischargePatient.DischargeandDeallocateBed(patientID, listOfBeds, listOfPatient);
+            int expectedValue = 0;
+            int actualValue = listOfPatient.Count;
+            Assert.AreEqual(expectedValue, actualValue);            
+        }
+
     }
 }

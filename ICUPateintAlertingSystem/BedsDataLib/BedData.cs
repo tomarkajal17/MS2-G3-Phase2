@@ -14,8 +14,8 @@ namespace BedsDataLib
         
         #region Private Data Members
         int _bedID;
-         bool _bedAvailability;
-         int _patientID;
+        bool _bedAvailability;
+        int _patientID;
         #endregion
         
         #region Properties   

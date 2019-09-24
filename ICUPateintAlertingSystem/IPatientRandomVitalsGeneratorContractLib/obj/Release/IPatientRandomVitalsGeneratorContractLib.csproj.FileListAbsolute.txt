@@ -1,0 +1,5 @@
+C:\Users\320068391\Desktop\Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\IPatientRandomVitalsGeneratorContractLib\bin\Release\IPatientRandomVitalsGeneratorContractLib.dll
+C:\Users\320068391\Desktop\Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\IPatientRandomVitalsGeneratorContractLib\bin\Release\IPatientRandomVitalsGeneratorContractLib.pdb
+C:\Users\320068391\Desktop\Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\IPatientRandomVitalsGeneratorContractLib\obj\Release\IPatientRandomVitalsGeneratorContractLib.csproj.CoreCompileInputs.cache
+C:\Users\320068391\Desktop\Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\IPatientRandomVitalsGeneratorContractLib\obj\Release\IPatientRandomVitalsGeneratorContractLib.dll
+C:\Users\320068391\Desktop\Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\IPatientRandomVitalsGeneratorContractLib\obj\Release\IPatientRandomVitalsGeneratorContractLib.pdb
