@@ -1,0 +1,6 @@
+C:\Users\320068391\Desktop\Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\BedsDataLib\bin\Release\BedsDataLib.dll
+C:\Users\320068391\Desktop\Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\BedsDataLib\bin\Release\BedsDataLib.pdb
+C:\Users\320068391\Desktop\Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\BedsDataLib\obj\Release\BedsDataLib.csprojAssemblyReference.cache
+C:\Users\320068391\Desktop\Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\BedsDataLib\obj\Release\BedsDataLib.csproj.CoreCompileInputs.cache
+C:\Users\320068391\Desktop\Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\BedsDataLib\obj\Release\BedsDataLib.dll
+C:\Users\320068391\Desktop\Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\BedsDataLib\obj\Release\BedsDataLib.pdb

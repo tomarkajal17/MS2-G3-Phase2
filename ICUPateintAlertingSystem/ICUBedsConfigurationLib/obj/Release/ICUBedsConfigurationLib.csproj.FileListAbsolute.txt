@@ -1,0 +1,9 @@
+C:\Users\320068391\Desktop\Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\ICUBedsConfigurationLib\bin\Release\ICUBedsConfigurationLib.dll
+C:\Users\320068391\Desktop\Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\ICUBedsConfigurationLib\bin\Release\ICUBedsConfigurationLib.pdb
+C:\Users\320068391\Desktop\Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\ICUBedsConfigurationLib\bin\Release\BedsDataLib.dll
+C:\Users\320068391\Desktop\Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\ICUBedsConfigurationLib\bin\Release\BedsDataLib.pdb
+C:\Users\320068391\Desktop\Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\ICUBedsConfigurationLib\obj\Release\ICUBedsConfigurationLib.csprojAssemblyReference.cache
+C:\Users\320068391\Desktop\Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\ICUBedsConfigurationLib\obj\Release\ICUBedsConfigurationLib.csproj.CoreCompileInputs.cache
+C:\Users\320068391\Desktop\Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\ICUBedsConfigurationLib\obj\Release\ICUBedsConfigurationLib.csproj.CopyComplete
+C:\Users\320068391\Desktop\Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\ICUBedsConfigurationLib\obj\Release\ICUBedsConfigurationLib.dll
+C:\Users\320068391\Desktop\Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\ICUBedsConfigurationLib\obj\Release\ICUBedsConfigurationLib.pdb

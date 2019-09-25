@@ -2,6 +2,7 @@
 using ICUBedsConfigurationLib;
 using System.Collections.Generic;
 using PatientInfoLib;
+using System;
 
 namespace BedAllocatorLib
 {
@@ -20,6 +21,11 @@ namespace BedAllocatorLib
                 bedItem.BedAvailability = false;
                 bedItem.PatientID = patientID;
                 patientsList.Add(newPatient);
+            }
+            else
+            {
+                string message = "Bed is not available";
+                throw new ArgumentNullException(message);
             }
         }
         #endregion
