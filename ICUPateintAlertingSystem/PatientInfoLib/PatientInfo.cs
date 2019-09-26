@@ -8,8 +8,8 @@ namespace PatientInfoLib
 {
     public class PatientInfo
     {
-        public int  PatientPulseRate { get; set; }
-        public double PatientSpo2 { get; set; }
+        public decimal  PatientPulseRate { get; set; }
+        public decimal PatientSpo2 { get; set; }
 
         public double PatientTemprature { get; set; }
 

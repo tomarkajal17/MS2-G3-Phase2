@@ -14,26 +14,28 @@ using PatientTempratureValidatorLib;
 using PatientVitalsProcessorLib;
 using PatientInfoLib;
 using PatientVitalsNetCheckerLib;
+using AlertFinalListStructureLib;
 
 namespace PatientVitalsProcessorLib
 {
     public class PatientVitalsProcessor
     {
-        public List<bool> GenerateAndValidate(List<PatientInfo> listOfPatient)
+        public List<AlertFinalListStructure> GenerateAndValidate(List<PatientInfo> listOfPatient)
         {
-            List<bool> FinalResult = new List<bool>();
+            List<AlertFinalListStructure> FinalResult = new List<AlertFinalListStructure>();
             foreach (PatientInfo patient in listOfPatient)
             {
                 bool[] parameterArray = new bool[3] { true,true,true};
+                AlertFinalListStructure alertFinalResultObj = new AlertFinalListStructure();
 
                 IPatientRandomVitalsGenerator spo2GenerateObj = new PatientSpo2RandomGenerator();
-                double patientSpo2Result=spo2GenerateObj.GenerateParameter<double>(patient.PatientID, listOfPatient);
+                decimal patientSpo2Result=spo2GenerateObj.GenerateParameter<decimal>(patient.PatientID, listOfPatient);
                 IPatientParameterValidator spo2ValidatorObj = new PatientSpo2Validator();
                 bool validSpo2 = spo2ValidatorObj.ValidateParameter(patientSpo2Result);
                 parameterArray[0] = validSpo2;
 
                 IPatientRandomVitalsGenerator pulseRateGenerateObj = new PatientPulseRateRandomGenerator();
-                double patientPulseRateResult = pulseRateGenerateObj.GenerateParameter<double>(patient.PatientID, listOfPatient);
+                decimal patientPulseRateResult = pulseRateGenerateObj.GenerateParameter<decimal>(patient.PatientID, listOfPatient);
                 IPatientParameterValidator PulseRateValidatorObj = new PatientSpo2Validator();
                 bool validPulseRate = PulseRateValidatorObj.ValidateParameter(patientPulseRateResult);
                 parameterArray[1] = validPulseRate;
@@ -46,8 +48,9 @@ namespace PatientVitalsProcessorLib
 
                 PatientVitalsNetChecker netCheckerObj = new PatientVitalsNetChecker();
                 bool finalResult=netCheckerObj.AnalysisResult(parameterArray);
-                FinalResult.Add(finalResult);
-
+                alertFinalResultObj.bedID = patient.BedID;
+                alertFinalResultObj.healthy = finalResult;
+                FinalResult.Add(alertFinalResultObj);
 
             }
 

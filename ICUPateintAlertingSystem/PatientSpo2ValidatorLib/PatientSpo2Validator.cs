@@ -14,9 +14,9 @@ namespace PatientSpo2ValidatorLib
         public bool ValidateParameter<TDouble>(TDouble parameter)
         {
             double spo2 = Convert.ToDouble(parameter);
-            if (spo2 < Spo2Min || spo2 > Spo2Max)
-                return false;
-            return true;
+            if (spo2 >= Spo2Min && spo2 <= Spo2Max)
+                return true;
+            return false;
 
         }
 

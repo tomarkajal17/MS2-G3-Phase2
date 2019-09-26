@@ -10,31 +10,16 @@ namespace BedsDataLib
     {
         #region static Data Members  
         static int numOfInstances=0;
-        #endregion
-        
-        #region Private Data Members
-        int _bedID;
-        bool _bedAvailability;
-        int _patientID;
-        #endregion
-        
-        #region Properties   
-        public bool BedAvailability
-        {
-            get { return _bedAvailability; }
-            set { _bedAvailability = value; }
-        }
 
-        public int BedID
-        {
-            get { return _bedID; }
-            set { _bedID = value; }
-        }
-        public int PatientID
-        {
-            get { return _patientID; }
-            set { _patientID = value; }
-        }
+        #endregion
+        #region Private Data Members
+        #endregion
+
+        #region Properties   
+        public bool BedAvailability { get; set; }
+
+        public int BedID { get; set; }
+        public int PatientID { get; set; }
 
         #endregion
 
@@ -42,12 +27,15 @@ namespace BedsDataLib
         public BedData()
         {
             numOfInstances++;
-            _bedID = numOfInstances;
-
-            _bedAvailability = true;
-            _patientID = 0;
+            BedID = numOfInstances;
+            BedAvailability = true;
+            PatientID = 0;
           
         }
         #endregion
+        public BedData(int x)
+        {
+            numOfInstances = x;
+        }
     }
 }

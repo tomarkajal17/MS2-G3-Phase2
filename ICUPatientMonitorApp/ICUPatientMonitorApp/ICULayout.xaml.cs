@@ -1,44 +1,22 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
+﻿using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
 using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace ICUPatientMonitorApp
 {
     /// <summary>
-    /// Interaction logic for UserControl1.xaml
+    /// Interaction logic for ICULayout.xaml
     /// </summary>
     public partial class ICULayout : UserControl
     {
+        /// <summary>
+        /// This is providing UI for ICU beds
+        /// </summary>
+
+        #region Constructor
         public ICULayout()
         {
             InitializeComponent();
-
-            Discharge.Items.Add("Bed1");
-            Discharge.Items.Add("Bed2");
-            Discharge.Items.Add("Bed3");
-            Discharge.Items.Add("Bed4");
-            Discharge.Items.Add("Bed5");
-            Discharge.Items.Add("Bed6");
-
-            DisableAlarm.Items.Add("Bed1");
-            DisableAlarm.Items.Add("Bed2");
-            DisableAlarm.Items.Add("Bed3");
-            DisableAlarm.Items.Add("Bed4");
-            DisableAlarm.Items.Add("Bed5");
-            DisableAlarm.Items.Add("Bed6");
-
-
             Bed1.Background = new SolidColorBrush(Colors.Yellow);
             Bed2.Background = new SolidColorBrush(Colors.Yellow);
             Bed3.Background = new SolidColorBrush(Colors.Yellow);
@@ -47,80 +25,93 @@ namespace ICUPatientMonitorApp
             Bed6.Background = new SolidColorBrush(Colors.Yellow);
 
         }
-        private void ComboBox_SelectionChanged_Disable_Alarm(object sender, SelectionChangedEventArgs e)
-        {
-            // Method intentionally left empty.
-        }
+        #endregion
 
-        private void ComboBox_SelectionChanged_PatientInfo(object sender, SelectionChangedEventArgs e)
-        {
-            // Method intentionally left empty.
-        }
-
-        private void ComboBox_SelectionChanged_Discharge(object sender, SelectionChangedEventArgs e)
-        {
-            // Method intentionally left empty.
-            
-        }
-
+        /// <summary>
+        /// when Discharge button will clicked
+        /// </summary>
+        /// <param name="sender">object</param>
+        /// <param name="e">event</param>
         private void Button_Click_Discharge(object sender, RoutedEventArgs e)
         {
-            if (Discharge.SelectedValue!= null && Discharge.SelectedValue.Equals("Bed1"))
+            string x = Change.Text;
+            if (x != null && FindName(x) != null)
             {
-                Bed1.Background = new SolidColorBrush(Colors.Yellow);
-            }
-            if (Discharge.SelectedValue != null && Discharge.SelectedValue.Equals("Bed2"))
-            {
-                Bed2.Background = new SolidColorBrush(Colors.Yellow);
-            }
-            if (Discharge.SelectedValue != null && Discharge.SelectedValue.Equals("Bed3"))
-            {
-                Bed3.Background = new SolidColorBrush(Colors.Yellow);
-            }
-            if (Discharge.SelectedValue != null && Discharge.SelectedValue.Equals("Bed4"))
-            {
-                Bed4.Background = new SolidColorBrush(Colors.Yellow);
-            }
-            if (Discharge.SelectedValue != null && Discharge.SelectedValue.Equals("Bed5"))
-            {
-                Bed5.Background = new SolidColorBrush(Colors.Yellow);
-            }
-            if (Discharge.SelectedValue != null && Discharge.SelectedValue.Equals("Bed6"))
-            {
-                Bed6.Background = new SolidColorBrush(Colors.Yellow);
-            }
-
+                Button tb = FindName(x) as Button;
+                tb.Background = new SolidColorBrush(Colors.Yellow);
+            }        
         }
+        /// <summary>
+        /// what will happen after the Disable Alarm click
+        /// </summary>
+        /// <param name="sender">object</param>
+        /// <param name="e">event</param>
         private void Button_Click_Disable_Alarm(object sender, RoutedEventArgs e)
         {
-            
-            if (DisableAlarm.SelectedValue != null && DisableAlarm.SelectedValue.Equals("Bed1"))
+            string x = Change.Text;
+            if (x != null && FindName(x) != null)
             {
-                Bed1.Background = new SolidColorBrush(Colors.Green);
-            }
-            else if (DisableAlarm.SelectedValue != null && DisableAlarm.SelectedValue.Equals("Bed2"))
-            {
-                Bed2.Background = new SolidColorBrush(Colors.Green);
-            }
-            else if (DisableAlarm.SelectedValue != null && DisableAlarm.SelectedValue.Equals("Bed3"))
-            {
-                Bed3.Background = new SolidColorBrush(Colors.Green);
-            }
-            else if (DisableAlarm.SelectedValue != null && DisableAlarm.SelectedValue.Equals("Bed4"))
-            {
-                Bed4.Background = new SolidColorBrush(Colors.Green);
-            }
-            else if (DisableAlarm.SelectedValue != null && DisableAlarm.SelectedValue.Equals("Bed5"))
-            {
-                Bed5.Background = new SolidColorBrush(Colors.Green);
-            }
-            else if (DisableAlarm.SelectedValue != null && DisableAlarm.SelectedValue.Equals("Bed6"))
-            {
-                Bed6.Background = new SolidColorBrush(Colors.Green);
+                Button tb = FindName(x) as Button;
+                if (tb.Background.ToString() == "#FFFF0000")
+                {
+                    tb.Background = new SolidColorBrush(Colors.Green);
+                }
+                else
+                {
+                    MessageBox.Show("Select Alarmed Bed");
+                }
             }
             else
             {
                 MessageBox.Show("No Alarm Occured");
+            }
+        }
+        #region OnButton Functionality
+        private void Bed1_Click(object sender, RoutedEventArgs e)
+        {
+            Change.Text = "Bed1";
+        }
+
+        private void Bed2_Click(object sender, RoutedEventArgs e)
+        {
+           Change.Text = "Bed2";
+
+        }
+
+        private void Bed3_Click(object sender, RoutedEventArgs e)
+        {
+            Change.Text = "Bed3";
+
+        }
+
+        private void Bed4_Click(object sender, RoutedEventArgs e)
+        {
+            Change.Text = "Bed4";
+        }
+
+        private void Bed5_Click(object sender, RoutedEventArgs e)
+        {
+            Change.Text = "Bed5";
+        }
+
+        private void Bed6_Click(object sender, RoutedEventArgs e)
+        {
+            Change.Text = "Bed6";
+        }
+        #endregion
+
+        /// <summary>
+        /// Recent critical patient indication in textbox 
+        /// </summary>
+        /// <param name="sender">object</param>
+        /// <param name="e">events</param>
+        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            string x = CriticalCondition.Text;
+            if (x != null && FindName("Bed" + x) != null)
+            {
+                Button tb = FindName("Bed" + x) as Button;
+                tb.Background = new SolidColorBrush(Colors.Red);
             }
         }
     }

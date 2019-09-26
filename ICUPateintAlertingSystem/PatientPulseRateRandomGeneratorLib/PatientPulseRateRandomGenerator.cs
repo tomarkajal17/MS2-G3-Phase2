@@ -12,10 +12,10 @@ namespace PatientPulseRateRandomGeneratorLib
     {
         public T GenerateParameter<T>(int patientID, List<PatientInfo> listOfPatients)
         {
-            const int PulseMinGenerate = 58;
-            const int PulseMaxGenerate = 102;
-            Random randomPulseRate = new Random();
-            int patientPulseRate=randomPulseRate.Next(PulseMinGenerate, PulseMaxGenerate);
+            const int PulseMinGenerate = 60;
+            const int PulseMaxGenerate = 100;
+            Random randomPulseRate = new Random(DateTime.Now.Ticks.GetHashCode());
+            decimal patientPulseRate=randomPulseRate.Next(PulseMinGenerate, PulseMaxGenerate);
             var patientObj = listOfPatients.Find(x => x.PatientID.Equals(patientID));
             patientObj.PatientPulseRate = patientPulseRate;
 

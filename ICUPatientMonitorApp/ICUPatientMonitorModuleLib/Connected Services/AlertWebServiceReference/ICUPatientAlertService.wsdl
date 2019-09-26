@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="ConfigureBedsWebMethod">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="numOfBeds" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ConfigureBedsWebMethodResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ConfigureBedsWebMethodResult" type="tns:ArrayOfBedData" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfBedData">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="BedData" nillable="true" type="tns:BedData" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="BedData">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="BedAvailability" type="s:boolean" />
+          <s:element minOccurs="1" maxOccurs="1" name="BedID" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="PatientID" type="s:int" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="AllocateBedsWebMethod">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="patientID" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AllocateBedsWebMethodResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AllocateBedsWebMethodResult" type="tns:ArrayOfPatientInfo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfPatientInfo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="PatientInfo" nillable="true" type="tns:PatientInfo" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="PatientInfo">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="PatientPulseRate" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="PatientSpo2" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="PatientTemprature" type="s:double" />
+          <s:element minOccurs="1" maxOccurs="1" name="PatientID" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="BedID" type="s:int" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="DischargePatientWebMethod">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="patientID" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DischargePatientWebMethodResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DischargePatientWebMethodResult" type="tns:ArrayOfPatientInfo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RingAlarmWebMethod">
+        <s:complexType />
+      </s:element>
+      <s:element name="RingAlarmWebMethodResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="RingAlarmWebMethodResult" type="tns:ArrayOfAlertFinalListStructure" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfAlertFinalListStructure">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="AlertFinalListStructure" nillable="true" type="tns:AlertFinalListStructure" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="AlertFinalListStructure">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="bedID" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="healthy" type="s:boolean" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="PatientDataWebMethod">
+        <s:complexType />
+      </s:element>
+      <s:element name="PatientDataWebMethodResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PatientDataWebMethodResult" type="tns:ArrayOfPatientInfo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="ConfigureBedsWebMethodSoapIn">
+    <wsdl:part name="parameters" element="tns:ConfigureBedsWebMethod" />
+  </wsdl:message>
+  <wsdl:message name="ConfigureBedsWebMethodSoapOut">
+    <wsdl:part name="parameters" element="tns:ConfigureBedsWebMethodResponse" />
+  </wsdl:message>
+  <wsdl:message name="AllocateBedsWebMethodSoapIn">
+    <wsdl:part name="parameters" element="tns:AllocateBedsWebMethod" />
+  </wsdl:message>
+  <wsdl:message name="AllocateBedsWebMethodSoapOut">
+    <wsdl:part name="parameters" element="tns:AllocateBedsWebMethodResponse" />
+  </wsdl:message>
+  <wsdl:message name="DischargePatientWebMethodSoapIn">
+    <wsdl:part name="parameters" element="tns:DischargePatientWebMethod" />
+  </wsdl:message>
+  <wsdl:message name="DischargePatientWebMethodSoapOut">
+    <wsdl:part name="parameters" element="tns:DischargePatientWebMethodResponse" />
+  </wsdl:message>
+  <wsdl:message name="RingAlarmWebMethodSoapIn">
+    <wsdl:part name="parameters" element="tns:RingAlarmWebMethod" />
+  </wsdl:message>
+  <wsdl:message name="RingAlarmWebMethodSoapOut">
+    <wsdl:part name="parameters" element="tns:RingAlarmWebMethodResponse" />
+  </wsdl:message>
+  <wsdl:message name="PatientDataWebMethodSoapIn">
+    <wsdl:part name="parameters" element="tns:PatientDataWebMethod" />
+  </wsdl:message>
+  <wsdl:message name="PatientDataWebMethodSoapOut">
+    <wsdl:part name="parameters" element="tns:PatientDataWebMethodResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ICUPatientAlertServiceSoap">
+    <wsdl:operation name="ConfigureBedsWebMethod">
+      <wsdl:input message="tns:ConfigureBedsWebMethodSoapIn" />
+      <wsdl:output message="tns:ConfigureBedsWebMethodSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AllocateBedsWebMethod">
+      <wsdl:input message="tns:AllocateBedsWebMethodSoapIn" />
+      <wsdl:output message="tns:AllocateBedsWebMethodSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DischargePatientWebMethod">
+      <wsdl:input message="tns:DischargePatientWebMethodSoapIn" />
+      <wsdl:output message="tns:DischargePatientWebMethodSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="RingAlarmWebMethod">
+      <wsdl:input message="tns:RingAlarmWebMethodSoapIn" />
+      <wsdl:output message="tns:RingAlarmWebMethodSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="PatientDataWebMethod">
+      <wsdl:input message="tns:PatientDataWebMethodSoapIn" />
+      <wsdl:output message="tns:PatientDataWebMethodSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ICUPatientAlertServiceSoap" type="tns:ICUPatientAlertServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ConfigureBedsWebMethod">
+      <soap:operation soapAction="http://tempuri.org/ConfigureBedsWebMethod" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AllocateBedsWebMethod">
+      <soap:operation soapAction="http://tempuri.org/AllocateBedsWebMethod" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DischargePatientWebMethod">
+      <soap:operation soapAction="http://tempuri.org/DischargePatientWebMethod" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RingAlarmWebMethod">
+      <soap:operation soapAction="http://tempuri.org/RingAlarmWebMethod" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PatientDataWebMethod">
+      <soap:operation soapAction="http://tempuri.org/PatientDataWebMethod" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ICUPatientAlertServiceSoap12" type="tns:ICUPatientAlertServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ConfigureBedsWebMethod">
+      <soap12:operation soapAction="http://tempuri.org/ConfigureBedsWebMethod" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AllocateBedsWebMethod">
+      <soap12:operation soapAction="http://tempuri.org/AllocateBedsWebMethod" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DischargePatientWebMethod">
+      <soap12:operation soapAction="http://tempuri.org/DischargePatientWebMethod" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RingAlarmWebMethod">
+      <soap12:operation soapAction="http://tempuri.org/RingAlarmWebMethod" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PatientDataWebMethod">
+      <soap12:operation soapAction="http://tempuri.org/PatientDataWebMethod" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ICUPatientAlertService">
+    <wsdl:port name="ICUPatientAlertServiceSoap" binding="tns:ICUPatientAlertServiceSoap">
+      <soap:address location="http://localhost:63210/ICUPatientAlertService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ICUPatientAlertServiceSoap12" binding="tns:ICUPatientAlertServiceSoap12">
+      <soap12:address location="http://localhost:63210/ICUPatientAlertService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

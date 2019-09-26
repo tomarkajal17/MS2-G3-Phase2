@@ -8,33 +8,85 @@
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="500">
     <UserControl.DataContext>
-        <vm:ICUPatientMonitorViewModel>
-        </vm:ICUPatientMonitorViewModel>
+        <vm:IcuPatientMonitorViewModel>
+        </vm:IcuPatientMonitorViewModel>
     </UserControl.DataContext>
     <Grid Background="White">
         <Grid.RowDefinitions>
             <RowDefinition Height="400"/>
             <RowDefinition Height="200"/>
         </Grid.RowDefinitions>
-        <ComboBox Name="PatientInfo" HorizontalAlignment="Left" Margin="31,320,0,0" VerticalAlignment="Top" Width="120" Height="27"/>
-        <ComboBox Name ="Discharge" HorizontalAlignment="Left" Margin="187,320,0,0" VerticalAlignment="Top" Width="130" Height="27" SelectionChanged="ComboBox_SelectionChanged_Discharge"/>
-        <ComboBox Name ="DisableAlarm" HorizontalAlignment="Left" Margin="364,320,0,0" VerticalAlignment="Top" Width="120" Height="27" />
-        <Button Name="Bed1" Content="Bed 1" HorizontalAlignment="Left" Margin="24,57,0,0" VerticalAlignment="Top" Width="127" Height="49" />
-        <Button Name ="Bed2" Content="Bed 2" HorizontalAlignment="Left" Margin="190,57,0,0" VerticalAlignment="Top" Width="127" Height="49"/>
-        <Button Name="Bed3" Content="Bed 3" HorizontalAlignment="Left" Margin="364,57,0,0" VerticalAlignment="Top" Width="126" Height="49"/>
-        <Button Name="Bed4" Content="Bed 4" HorizontalAlignment="Left" Margin="24,151,0,0" VerticalAlignment="Top" Width="127" Height="52"/>
-        <Button Name ="Bed5" Content="Bed 5" HorizontalAlignment="Left" VerticalAlignment="Top" Width="127" Margin="190,151,0,0" Height="45"/>
-        <Button Name="Bed6" Content="Bed 6" HorizontalAlignment="Left" Margin="364,151,0,0" VerticalAlignment="Top" Width="126" Height="45" />
-        <Button Content="Discharge" HorizontalAlignment="Left" Margin="202,368,0,0"
-                VerticalAlignment="Top" Width="93"  
+        <Button Name="Bed1" Content="Bed 1" HorizontalAlignment="Left" 
+                Margin="24,57,0,0" VerticalAlignment="Top" 
+                Width="127" Height="49" Click="Bed1_Click" />
+        <Button Name ="Bed2" Content="Bed 2" HorizontalAlignment="Left"
+                Margin="190,57,0,0" VerticalAlignment="Top" 
+                Width="127" Height="49" Click="Bed2_Click"/>
+        <Button Name="Bed3" Content="Bed 3" HorizontalAlignment="Left" 
+                Margin="364,57,0,0" VerticalAlignment="Top"
+                Width="126" Height="49" Click="Bed3_Click"/>
+        <Button Name="Bed4" Content="Bed 4" HorizontalAlignment="Left" 
+                Margin="24,151,0,0" VerticalAlignment="Top"
+                Width="127" Height="52" Click="Bed4_Click"/>
+        <Button Name ="Bed5" Content="Bed 5" 
+                HorizontalAlignment="Left" VerticalAlignment="Top"
+                Width="127" Margin="190,151,0,0" Height="52" 
+                Click="Bed5_Click"/>
+        <Button Name="Bed6" Content="Bed 6"
+                HorizontalAlignment="Left" Margin="364,151,0,0" 
+                VerticalAlignment="Top" Width="126" Height="52" 
+                Click="Bed6_Click"
+                />
+        <Button Content="Discharge" HorizontalAlignment="Left" 
+                Margin="364,232,0,0"
+                VerticalAlignment="Top" Width="114" 
                 Command="{Binding Path=DischargePatientCommand}"
-                RenderTransformOrigin="0.71,0.8" Click="Button_Click_Discharge"/>
-        <Button Name ="GetPatientInfo" Content="Get Patient Info" HorizontalAlignment="Left" Margin="41,368,0,0" 
-                VerticalAlignment="Top" Width="100"
-                Command="{Binding Path=GetPatientInfoCommand}"/>
-        <Button Name ="Disable_Alarm" Content="Disable Alarm" HorizontalAlignment="Left" 
-                Margin="364,368,0,0" VerticalAlignment="Top" Width="102" 
-                Command="{Binding Path=DisableAlarm}"
-                Click="Button_Click_Disable_Alarm" />
+                RenderTransformOrigin="0.71,0.8"
+                Click="Button_Click_Discharge" Height="26"
+                Background="AliceBlue"
+                FontWeight="Bold"/>
+        <Button Name ="Disable_Alarm" Content="Disable Alarm" 
+                HorizontalAlignment="Left" 
+                Margin="364,279,0,0" VerticalAlignment="Top"
+                Width="114" 
+                Click="Button_Click_Disable_Alarm" Height="30" 
+                RenderTransformOrigin="1.578,0.771"
+                Background="AliceBlue"
+                FontWeight="Bold"/>
+        <TextBlock HorizontalAlignment="Left" Margin="15,270,0,0" 
+                   TextWrapping="Wrap" Text="Click on the bed to select: " 
+                   VerticalAlignment="Top" Width="181" FontSize="15" 
+                   Height="23" RenderTransformOrigin="0.541,1" 
+                   Background="DarkOrange"/>
+        <TextBox Name ="Change" HorizontalAlignment="Left" Height="50"
+                 Margin="196,259,0,0" TextWrapping="Wrap" 
+                 Text="{Binding Path=DischargePatientId, Mode=Default, UpdateSourceTrigger=PropertyChanged}" 
+                 VerticalAlignment="Top" Width="133" 
+                 RenderTransformOrigin="0.62,0.515" Background="Azure"/>
+        <Button Content="Start Monitoring Patients" Background="SkyBlue"
+                HorizontalAlignment="Left" Margin="24,346,0,0" 
+                VerticalAlignment="Top" Width="149" Height="44"
+                Command="{Binding Path=StartMonitoringCommand}"
+                FontWeight="Bold"
+                />
+        <Button Content="Patient Info" HorizontalAlignment="Left"
+                Margin="364,323,0,0" VerticalAlignment="Top" Width="114" 
+                Height="28" Command="{Binding Path=GetPatientInfoCommand}"
+                Background="AliceBlue"
+                FontWeight="Bold"/>
+        <Button Content="Stop Monitoring Patients" Background="SkyBlue" 
+                HorizontalAlignment="Left" Margin="190,346,0,0" 
+                VerticalAlignment="Top" Width="148" Height="44"
+                Command="{Binding Path=StopMonitoringCommand}"
+                FontWeight="Bold"
+                />
+        <TextBox Name ="CriticalCondition" HorizontalAlignment="Left" Height="23" Margin="179,10,0,0" 
+                 Grid.Row="1" TextWrapping="Wrap" 
+                 VerticalAlignment="Top" Width="120" 
+                 TextChanged="TextBox_TextChanged"
+                 Text="{Binding Path=AlertPatientText, Mode=TwoWay}"/>
+        <TextBlock HorizontalAlignment="Left" Margin="24,10,0,0" Grid.Row="1" 
+                   TextWrapping="Wrap" Text="Recent Critical Bed No: " 
+                   FontSize="15" VerticalAlignment="Top" Height="23"/>
     </Grid>
 </UserControl>

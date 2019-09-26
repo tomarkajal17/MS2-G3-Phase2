@@ -14,11 +14,11 @@ namespace PatientTempratureValidatorLib
         public bool ValidateParameter<TDouble>(TDouble parameter)
         {
             double temperature = Convert.ToDouble(parameter);
-            if (temperature < TempMin || temperature > TempMax)
+            if (temperature >=TempMin && temperature <= TempMax)
             {
-                return false;
+                return true;
             }
-            return true;
+            return false;
 
         }
 

@@ -10,6 +10,7 @@ namespace ICUBedsConfigurationLib
         {
 
             List<BedData> bedsList = new List<BedData>();
+            BedData obj1 = new BedData(0);
             for (int i = 1; i <= totalNumbersOfBeds; i++)
             {
                 BedData bedDataObj = new BedData();

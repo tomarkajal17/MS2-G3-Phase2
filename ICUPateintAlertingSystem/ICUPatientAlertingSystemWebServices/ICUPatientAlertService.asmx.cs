@@ -9,6 +9,7 @@ using BedAllocatorLib;
 using DischargePatientLib;
 using PatientInfoLib;
 using PatientVitalsProcessorLib;
+using AlertFinalListStructureLib;
 
 namespace ICUPatientAlertingSystemWebServices
 {
@@ -56,11 +57,11 @@ namespace ICUPatientAlertingSystemWebServices
 
         }
         [WebMethod]
-        public List<bool> RingAlarmWebMethod( )
+        public List<AlertFinalListStructure> RingAlarmWebMethod( )
         {
-            List<bool> finalResultList = new List<bool>();
-            PatientVitalsProcessor p = new PatientVitalsProcessor();
-            finalResultList = p.GenerateAndValidate(listOfPatients);
+            List<AlertFinalListStructure> finalResultList = new List<AlertFinalListStructure>();
+            PatientVitalsProcessor processor = new PatientVitalsProcessor();
+            finalResultList = processor.GenerateAndValidate(listOfPatients);
             return finalResultList;
         }
         [WebMethod]

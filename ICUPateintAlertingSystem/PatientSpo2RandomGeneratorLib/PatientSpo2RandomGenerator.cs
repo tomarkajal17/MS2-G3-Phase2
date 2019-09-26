@@ -14,8 +14,8 @@ namespace PatientSpo2RandomGeneratorLib
         {
             const int Spo2MinGenerate = 89;
             const int Spo2MaxGenerate = 102;
-            Random randomSpo2 = new Random();
-            int patientSpo2 = randomSpo2.Next(Spo2MinGenerate, Spo2MaxGenerate);
+            Random randomSpo2 = new Random(DateTime.Now.Ticks.GetHashCode());
+            decimal patientSpo2 = randomSpo2.Next(Spo2MinGenerate, Spo2MaxGenerate);
             var patientObj = listOfPatients.Find(x => x.PatientID.Equals(patientID));
             patientObj.PatientSpo2 = patientSpo2;
             return (T)Convert.ChangeType(patientSpo2, typeof(T));

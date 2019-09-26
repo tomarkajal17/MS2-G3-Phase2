@@ -20,3 +20,4 @@ C:\Users\320068391\source\repos\ICUPatientMonitorApp\ICUPatientMonitorApp\bin\De
 C:\Users\320068391\source\repos\ICUPatientMonitorApp\ICUPatientMonitorApp\bin\Debug\ICUPatientMonitorModuleLib.pdb
 C:\Users\320068391\source\repos\ICUPatientMonitorApp\ICUPatientMonitorApp\bin\Debug\MvvmUtilityLib.pdb
 C:\Users\320068391\source\repos\ICUPatientMonitorApp\ICUPatientMonitorApp\obj\Debug\ICUPatientMonitorApp.csproj.CopyComplete
+C:\Users\320068391\source\repos\ICUPatientMonitorApp\ICUPatientMonitorApp\bin\Debug\ICUPatientMonitorModuleLib.dll.config

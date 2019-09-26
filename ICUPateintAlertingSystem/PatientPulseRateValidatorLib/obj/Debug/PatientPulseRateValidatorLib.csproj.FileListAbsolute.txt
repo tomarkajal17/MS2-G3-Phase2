@@ -7,3 +7,12 @@ C:\MS2G3Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\PatientPulseRateValidatorL
 C:\MS2G3Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\PatientPulseRateValidatorLib\obj\Debug\PatientPulseRateValidatorLib.csproj.CopyComplete
 C:\MS2G3Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\PatientPulseRateValidatorLib\obj\Debug\PatientPulseRateValidatorLib.dll
 C:\MS2G3Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\PatientPulseRateValidatorLib\obj\Debug\PatientPulseRateValidatorLib.pdb
+C:\Users\320068391\Downloads\MS2-G3-Phase2-master\ICUPateintAlertingSystem\PatientPulseRateValidatorLib\bin\Debug\PatientPulseRateValidatorLib.dll
+C:\Users\320068391\Downloads\MS2-G3-Phase2-master\ICUPateintAlertingSystem\PatientPulseRateValidatorLib\bin\Debug\PatientPulseRateValidatorLib.pdb
+C:\Users\320068391\Downloads\MS2-G3-Phase2-master\ICUPateintAlertingSystem\PatientPulseRateValidatorLib\bin\Debug\IPatientParametersValidatorContractLib.dll
+C:\Users\320068391\Downloads\MS2-G3-Phase2-master\ICUPateintAlertingSystem\PatientPulseRateValidatorLib\bin\Debug\IPatientParametersValidatorContractLib.pdb
+C:\Users\320068391\Downloads\MS2-G3-Phase2-master\ICUPateintAlertingSystem\PatientPulseRateValidatorLib\obj\Debug\PatientPulseRateValidatorLib.csprojAssemblyReference.cache
+C:\Users\320068391\Downloads\MS2-G3-Phase2-master\ICUPateintAlertingSystem\PatientPulseRateValidatorLib\obj\Debug\PatientPulseRateValidatorLib.csproj.CoreCompileInputs.cache
+C:\Users\320068391\Downloads\MS2-G3-Phase2-master\ICUPateintAlertingSystem\PatientPulseRateValidatorLib\obj\Debug\PatientPulseRateValidatorLib.csproj.CopyComplete
+C:\Users\320068391\Downloads\MS2-G3-Phase2-master\ICUPateintAlertingSystem\PatientPulseRateValidatorLib\obj\Debug\PatientPulseRateValidatorLib.dll
+C:\Users\320068391\Downloads\MS2-G3-Phase2-master\ICUPateintAlertingSystem\PatientPulseRateValidatorLib\obj\Debug\PatientPulseRateValidatorLib.pdb

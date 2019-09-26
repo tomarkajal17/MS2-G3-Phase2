@@ -45,6 +45,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\AlertFinalListStructureLib\AlertFinalListStructureLib.csproj">
+      <Project>{3a5f747f-2e61-4a54-b87c-bc27af10da5b}</Project>
+      <Name>AlertFinalListStructureLib</Name>
+    </ProjectReference>
     <ProjectReference Include="..\IPatientParametersValidatorContractLib\IPatientParametersValidatorContractLib.csproj">
       <Project>{c60e34a2-6127-415a-96d2-6d328e908e81}</Project>
       <Name>IPatientParametersValidatorContractLib</Name>

@@ -7,3 +7,4 @@ C:\Users\320068391\source\repos\ICUPatientMonitorApp\ICUPatientMonitorModuleLib\
 C:\Users\320068391\source\repos\ICUPatientMonitorApp\ICUPatientMonitorModuleLib\obj\Debug\ICUPatientMonitorModuleLib.csproj.CopyComplete
 C:\Users\320068391\source\repos\ICUPatientMonitorApp\ICUPatientMonitorModuleLib\obj\Debug\ICUPatientMonitorModuleLib.dll
 C:\Users\320068391\source\repos\ICUPatientMonitorApp\ICUPatientMonitorModuleLib\obj\Debug\ICUPatientMonitorModuleLib.pdb
+C:\Users\320068391\source\repos\ICUPatientMonitorApp\ICUPatientMonitorModuleLib\bin\Debug\ICUPatientMonitorModuleLib.dll.config

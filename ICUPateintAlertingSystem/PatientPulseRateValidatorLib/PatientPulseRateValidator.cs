@@ -9,18 +9,18 @@ namespace PatientPulseRateValidatorLib
 {
     public class PatientPulseRateValidator : IPatientParameterValidator
     {
-        private const int PulseRateMax = 100;
-        private const int PulseRateMin = 60;
+        private const decimal PulseRateMax = 100;
+        private const decimal PulseRateMin = 60;
 
-        public bool ValidateParameter<TInt>(TInt parameter)
+        public bool ValidateParameter<TDecimal>(TDecimal parameter)
         {   
             
-                int pulseRate = Convert.ToInt32(parameter);
-                if (pulseRate < PulseRateMin || pulseRate > PulseRateMax)
+                decimal pulseRate = Convert.ToDecimal(parameter);
+                if (pulseRate >= PulseRateMin && pulseRate <= PulseRateMax)
                 {
-                    return false;
+                    return true;
                 }
-                return true;
+                return false;
 
         }
     }

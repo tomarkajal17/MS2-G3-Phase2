@@ -38,7 +38,7 @@ namespace MainForChecking
             pat2.PatientID = 3;
             listOfPatient.Add(pat3);
             PatientVitalsProcessor p = new PatientVitalsProcessor();
-            finalResult=p.GenerateAndValidate(listOfPatient);
+           
             
 
 

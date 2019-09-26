@@ -88,6 +88,10 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\AlertFinalListStructureLib\AlertFinalListStructureLib.csproj">
+      <Project>{3a5f747f-2e61-4a54-b87c-bc27af10da5b}</Project>
+      <Name>AlertFinalListStructureLib</Name>
+    </ProjectReference>
     <ProjectReference Include="..\BedAllocatorLib\BedAllocatorLib.csproj">
       <Project>{7e2310de-0e3e-46a2-9f22-76da3f6d35d6}</Project>
       <Name>BedAllocatorLib</Name>
