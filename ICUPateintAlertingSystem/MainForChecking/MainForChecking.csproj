@@ -66,9 +66,49 @@
       <Project>{f97769ef-eb51-4c2f-8bc0-57ecfe535642}</Project>
       <Name>ICUBedsConfigurationLib</Name>
     </ProjectReference>
+    <ProjectReference Include="..\IPatientParametersValidatorContractLib\IPatientParametersValidatorContractLib.csproj">
+      <Project>{c60e34a2-6127-415a-96d2-6d328e908e81}</Project>
+      <Name>IPatientParametersValidatorContractLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\IPatientRandomVitalsGeneratorContractLib\IPatientRandomVitalsGeneratorContractLib.csproj">
+      <Project>{1c0db20b-c065-4cd4-a902-1cfae5ce174c}</Project>
+      <Name>IPatientRandomVitalsGeneratorContractLib</Name>
+    </ProjectReference>
     <ProjectReference Include="..\PatientInfoLib\PatientInfoLib.csproj">
       <Project>{15225033-6352-47cc-ace8-78631ba59e68}</Project>
       <Name>PatientInfoLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PatientPulseRateRandomGeneratorLib\PatientPulseRateRandomGeneratorLib.csproj">
+      <Project>{6d0e4303-07f0-4174-9b52-3d82ee76163d}</Project>
+      <Name>PatientPulseRateRandomGeneratorLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PatientPulseRateValidatorLib\PatientPulseRateValidatorLib.csproj">
+      <Project>{c920066d-9319-42b9-ae0d-04f634b43804}</Project>
+      <Name>PatientPulseRateValidatorLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PatientSpo2RandomGeneratorLib\PatientSpo2RandomGeneratorLib.csproj">
+      <Project>{a813c0cb-0fa2-446b-8618-339305c28f66}</Project>
+      <Name>PatientSpo2RandomGeneratorLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PatientSpo2ValidatorLib\PatientSpo2ValidatorLib.csproj">
+      <Project>{aee93f02-ca1d-4af7-b77d-f3a8ee19b2fb}</Project>
+      <Name>PatientSpo2ValidatorLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PatientTempratureRandomGeneratorLib\PatientTempratureRandomGeneratorLib.csproj">
+      <Project>{12aac6f4-4b15-4f0d-8338-7b73f4767cad}</Project>
+      <Name>PatientTempratureRandomGeneratorLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PatientTempratureValidatorLib\PatientTempratureValidatorLib.csproj">
+      <Project>{4310c3f8-bce2-4d4c-aefb-450dbd700234}</Project>
+      <Name>PatientTempratureValidatorLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PatientVitalsNetCheckerLib\PatientVitalsNetCheckerLib.csproj">
+      <Project>{0bf26331-bf5d-44bf-bf45-a9b771735936}</Project>
+      <Name>PatientVitalsNetCheckerLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PatientVitalsProcessorLib\PatientVitalsProcessorLib.csproj">
+      <Project>{6394f52e-2dd2-4285-989a-5d5981bb76b6}</Project>
+      <Name>PatientVitalsProcessorLib</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

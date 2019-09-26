@@ -29,6 +29,24 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BedsDataLib.Test", "BedsDat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BedAllocatorLib.Test", "BedAllocatorLib.Test\BedAllocatorLib.Test.csproj", "{5AD7E51C-EFAE-4618-AC94-B21D7A44C9EC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatientTempratureRandomGeneratorLib", "PatientTempratureRandomGeneratorLib\PatientTempratureRandomGeneratorLib.csproj", "{12AAC6F4-4B15-4F0D-8338-7B73F4767CAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatientPulseRateRandomGeneratorLib", "PatientPulseRateRandomGeneratorLib\PatientPulseRateRandomGeneratorLib.csproj", "{6D0E4303-07F0-4174-9B52-3D82EE76163D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatientSpo2RandomGeneratorLib", "PatientSpo2RandomGeneratorLib\PatientSpo2RandomGeneratorLib.csproj", "{A813C0CB-0FA2-446B-8618-339305C28F66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IPatientParametersValidatorContractLib", "IPatientParametersValidatorContractLib\IPatientParametersValidatorContractLib.csproj", "{C60E34A2-6127-415A-96D2-6D328E908E81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatientPulseRateValidatorLib", "PatientPulseRateValidatorLib\PatientPulseRateValidatorLib.csproj", "{C920066D-9319-42B9-AE0D-04F634B43804}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatientTempratureValidatorLib", "PatientTempratureValidatorLib\PatientTempratureValidatorLib.csproj", "{4310C3F8-BCE2-4D4C-AEFB-450DBD700234}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatientSpo2ValidatorLib", "PatientSpo2ValidatorLib\PatientSpo2ValidatorLib.csproj", "{AEE93F02-CA1D-4AF7-B77D-F3A8EE19B2FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatientVitalsNetCheckerLib", "PatientVitalsNetCheckerLib\PatientVitalsNetCheckerLib.csproj", "{0BF26331-BF5D-44BF-BF45-A9B771735936}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatientVitalsProcessorLib", "PatientVitalsProcessorLib\PatientVitalsProcessorLib.csproj", "{6394F52E-2DD2-4285-989A-5D5981BB76B6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +105,42 @@ Global
 		{5AD7E51C-EFAE-4618-AC94-B21D7A44C9EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5AD7E51C-EFAE-4618-AC94-B21D7A44C9EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5AD7E51C-EFAE-4618-AC94-B21D7A44C9EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12AAC6F4-4B15-4F0D-8338-7B73F4767CAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12AAC6F4-4B15-4F0D-8338-7B73F4767CAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12AAC6F4-4B15-4F0D-8338-7B73F4767CAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12AAC6F4-4B15-4F0D-8338-7B73F4767CAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D0E4303-07F0-4174-9B52-3D82EE76163D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D0E4303-07F0-4174-9B52-3D82EE76163D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D0E4303-07F0-4174-9B52-3D82EE76163D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D0E4303-07F0-4174-9B52-3D82EE76163D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A813C0CB-0FA2-446B-8618-339305C28F66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A813C0CB-0FA2-446B-8618-339305C28F66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A813C0CB-0FA2-446B-8618-339305C28F66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A813C0CB-0FA2-446B-8618-339305C28F66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C60E34A2-6127-415A-96D2-6D328E908E81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C60E34A2-6127-415A-96D2-6D328E908E81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C60E34A2-6127-415A-96D2-6D328E908E81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C60E34A2-6127-415A-96D2-6D328E908E81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C920066D-9319-42B9-AE0D-04F634B43804}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C920066D-9319-42B9-AE0D-04F634B43804}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C920066D-9319-42B9-AE0D-04F634B43804}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C920066D-9319-42B9-AE0D-04F634B43804}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4310C3F8-BCE2-4D4C-AEFB-450DBD700234}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4310C3F8-BCE2-4D4C-AEFB-450DBD700234}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4310C3F8-BCE2-4D4C-AEFB-450DBD700234}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4310C3F8-BCE2-4D4C-AEFB-450DBD700234}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEE93F02-CA1D-4AF7-B77D-F3A8EE19B2FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEE93F02-CA1D-4AF7-B77D-F3A8EE19B2FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEE93F02-CA1D-4AF7-B77D-F3A8EE19B2FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEE93F02-CA1D-4AF7-B77D-F3A8EE19B2FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BF26331-BF5D-44BF-BF45-A9B771735936}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BF26331-BF5D-44BF-BF45-A9B771735936}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BF26331-BF5D-44BF-BF45-A9B771735936}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BF26331-BF5D-44BF-BF45-A9B771735936}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6394F52E-2DD2-4285-989A-5D5981BB76B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6394F52E-2DD2-4285-989A-5D5981BB76B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6394F52E-2DD2-4285-989A-5D5981BB76B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6394F52E-2DD2-4285-989A-5D5981BB76B6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

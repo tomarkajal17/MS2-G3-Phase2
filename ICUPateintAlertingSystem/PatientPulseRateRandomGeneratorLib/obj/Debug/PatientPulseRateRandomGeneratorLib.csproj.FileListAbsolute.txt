@@ -1,0 +1,11 @@
+C:\MS2G3Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\PatientPulseRateRandomGeneratorLib\bin\Debug\PatientPulseRateRandomGeneratorLib.dll
+C:\MS2G3Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\PatientPulseRateRandomGeneratorLib\bin\Debug\PatientPulseRateRandomGeneratorLib.pdb
+C:\MS2G3Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\PatientPulseRateRandomGeneratorLib\bin\Debug\IPatientRandomVitalsGeneratorContractLib.dll
+C:\MS2G3Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\PatientPulseRateRandomGeneratorLib\bin\Debug\PatientInfoLib.dll
+C:\MS2G3Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\PatientPulseRateRandomGeneratorLib\bin\Debug\IPatientRandomVitalsGeneratorContractLib.pdb
+C:\MS2G3Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\PatientPulseRateRandomGeneratorLib\bin\Debug\PatientInfoLib.pdb
+C:\MS2G3Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\PatientPulseRateRandomGeneratorLib\obj\Debug\PatientPulseRateRandomGeneratorLib.csprojAssemblyReference.cache
+C:\MS2G3Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\PatientPulseRateRandomGeneratorLib\obj\Debug\PatientPulseRateRandomGeneratorLib.csproj.CoreCompileInputs.cache
+C:\MS2G3Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\PatientPulseRateRandomGeneratorLib\obj\Debug\PatientPulseRateRandomGeneratorLib.csproj.CopyComplete
+C:\MS2G3Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\PatientPulseRateRandomGeneratorLib\obj\Debug\PatientPulseRateRandomGeneratorLib.dll
+C:\MS2G3Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\PatientPulseRateRandomGeneratorLib\obj\Debug\PatientPulseRateRandomGeneratorLib.pdb

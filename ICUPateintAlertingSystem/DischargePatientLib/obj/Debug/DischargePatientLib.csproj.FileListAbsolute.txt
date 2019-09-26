@@ -24,3 +24,16 @@ C:\Users\320068391\Desktop\Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\Dischar
 C:\Users\320068391\Desktop\Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\DischargePatientLib\obj\Debug\DischargePatientLib.csproj.CopyComplete
 C:\Users\320068391\Desktop\Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\DischargePatientLib\obj\Debug\DischargePatientLib.dll
 C:\Users\320068391\Desktop\Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\DischargePatientLib\obj\Debug\DischargePatientLib.pdb
+C:\MS2G3Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\DischargePatientLib\bin\Debug\DischargePatientLib.dll
+C:\MS2G3Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\DischargePatientLib\bin\Debug\DischargePatientLib.pdb
+C:\MS2G3Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\DischargePatientLib\bin\Debug\BedsDataLib.dll
+C:\MS2G3Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\DischargePatientLib\bin\Debug\ICUBedsConfigurationLib.dll
+C:\MS2G3Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\DischargePatientLib\bin\Debug\PatientInfoLib.dll
+C:\MS2G3Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\DischargePatientLib\bin\Debug\BedsDataLib.pdb
+C:\MS2G3Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\DischargePatientLib\bin\Debug\ICUBedsConfigurationLib.pdb
+C:\MS2G3Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\DischargePatientLib\bin\Debug\PatientInfoLib.pdb
+C:\MS2G3Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\DischargePatientLib\obj\Debug\DischargePatientLib.csprojAssemblyReference.cache
+C:\MS2G3Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\DischargePatientLib\obj\Debug\DischargePatientLib.csproj.CoreCompileInputs.cache
+C:\MS2G3Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\DischargePatientLib\obj\Debug\DischargePatientLib.csproj.CopyComplete
+C:\MS2G3Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\DischargePatientLib\obj\Debug\DischargePatientLib.dll
+C:\MS2G3Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\DischargePatientLib\obj\Debug\DischargePatientLib.pdb

@@ -1,0 +1,9 @@
+C:\MS2G3Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\PatientPulseRateValidatorLib\bin\Debug\PatientPulseRateValidatorLib.dll
+C:\MS2G3Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\PatientPulseRateValidatorLib\bin\Debug\PatientPulseRateValidatorLib.pdb
+C:\MS2G3Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\PatientPulseRateValidatorLib\bin\Debug\IPatientParametersValidatorContractLib.dll
+C:\MS2G3Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\PatientPulseRateValidatorLib\bin\Debug\IPatientParametersValidatorContractLib.pdb
+C:\MS2G3Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\PatientPulseRateValidatorLib\obj\Debug\PatientPulseRateValidatorLib.csprojAssemblyReference.cache
+C:\MS2G3Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\PatientPulseRateValidatorLib\obj\Debug\PatientPulseRateValidatorLib.csproj.CoreCompileInputs.cache
+C:\MS2G3Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\PatientPulseRateValidatorLib\obj\Debug\PatientPulseRateValidatorLib.csproj.CopyComplete
+C:\MS2G3Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\PatientPulseRateValidatorLib\obj\Debug\PatientPulseRateValidatorLib.dll
+C:\MS2G3Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\PatientPulseRateValidatorLib\obj\Debug\PatientPulseRateValidatorLib.pdb

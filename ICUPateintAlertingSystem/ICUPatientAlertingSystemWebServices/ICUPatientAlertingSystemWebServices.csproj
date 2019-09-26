@@ -32,6 +32,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -110,6 +111,10 @@
     <ProjectReference Include="..\PatientInfoLib\PatientInfoLib.csproj">
       <Project>{15225033-6352-47cc-ace8-78631ba59e68}</Project>
       <Name>PatientInfoLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PatientVitalsProcessorLib\PatientVitalsProcessorLib.csproj">
+      <Project>{6394f52e-2dd2-4285-989a-5d5981bb76b6}</Project>
+      <Name>PatientVitalsProcessorLib</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

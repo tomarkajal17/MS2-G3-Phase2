@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6394F52E-2DD2-4285-989A-5D5981BB76B6}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PatientVitalsProcessorLib</RootNamespace>
+    <AssemblyName>PatientVitalsProcessorLib</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="PatientVitalsProcessor.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\IPatientParametersValidatorContractLib\IPatientParametersValidatorContractLib.csproj">
+      <Project>{c60e34a2-6127-415a-96d2-6d328e908e81}</Project>
+      <Name>IPatientParametersValidatorContractLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\IPatientRandomVitalsGeneratorContractLib\IPatientRandomVitalsGeneratorContractLib.csproj">
+      <Project>{1c0db20b-c065-4cd4-a902-1cfae5ce174c}</Project>
+      <Name>IPatientRandomVitalsGeneratorContractLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PatientInfoLib\PatientInfoLib.csproj">
+      <Project>{15225033-6352-47cc-ace8-78631ba59e68}</Project>
+      <Name>PatientInfoLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PatientPulseRateRandomGeneratorLib\PatientPulseRateRandomGeneratorLib.csproj">
+      <Project>{6d0e4303-07f0-4174-9b52-3d82ee76163d}</Project>
+      <Name>PatientPulseRateRandomGeneratorLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PatientPulseRateValidatorLib\PatientPulseRateValidatorLib.csproj">
+      <Project>{c920066d-9319-42b9-ae0d-04f634b43804}</Project>
+      <Name>PatientPulseRateValidatorLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PatientSpo2RandomGeneratorLib\PatientSpo2RandomGeneratorLib.csproj">
+      <Project>{a813c0cb-0fa2-446b-8618-339305c28f66}</Project>
+      <Name>PatientSpo2RandomGeneratorLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PatientSpo2ValidatorLib\PatientSpo2ValidatorLib.csproj">
+      <Project>{aee93f02-ca1d-4af7-b77d-f3a8ee19b2fb}</Project>
+      <Name>PatientSpo2ValidatorLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PatientTempratureRandomGeneratorLib\PatientTempratureRandomGeneratorLib.csproj">
+      <Project>{12aac6f4-4b15-4f0d-8338-7b73f4767cad}</Project>
+      <Name>PatientTempratureRandomGeneratorLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PatientTempratureValidatorLib\PatientTempratureValidatorLib.csproj">
+      <Project>{4310c3f8-bce2-4d4c-aefb-450dbd700234}</Project>
+      <Name>PatientTempratureValidatorLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PatientVitalsNetCheckerLib\PatientVitalsNetCheckerLib.csproj">
+      <Project>{0bf26331-bf5d-44bf-bf45-a9b771735936}</Project>
+      <Name>PatientVitalsNetCheckerLib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

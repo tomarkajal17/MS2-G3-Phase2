@@ -8,6 +8,7 @@ using ICUBedsConfigurationLib;
 using BedAllocatorLib;
 using DischargePatientLib;
 using PatientInfoLib;
+using PatientVitalsProcessorLib;
 
 namespace ICUPatientAlertingSystemWebServices
 {
@@ -23,15 +24,15 @@ namespace ICUPatientAlertingSystemWebServices
     {
 
 
-        public static List<BedData> _listOfBeds;
-        public static List<PatientInfo> listOfPatients;
+        private static List<BedData> _listOfBeds;
+        private static List<PatientInfo> listOfPatients;
 
         [WebMethod]
         public List<BedData> ConfigureBedsWebMethod(int numOfBeds)
         {
             _listOfBeds = new List<BedData>();
             listOfPatients = new List<PatientInfo>();
-            ICUBedsConfiguration bedobj = new ICUBedsConfigurationLib.ICUBedsConfiguration();
+            IcuBedsConfiguration bedobj = new ICUBedsConfigurationLib.IcuBedsConfiguration();
             _listOfBeds = bedobj.ConfigureBeds(numOfBeds);
             
             return _listOfBeds;
@@ -53,6 +54,19 @@ namespace ICUPatientAlertingSystemWebServices
             dischargePatientObj.DischargeandDeallocateBed(patientID, _listOfBeds, listOfPatients);
             return listOfPatients;
 
+        }
+        [WebMethod]
+        public List<bool> RingAlarmWebMethod( )
+        {
+            List<bool> finalResultList = new List<bool>();
+            PatientVitalsProcessor p = new PatientVitalsProcessor();
+            finalResultList = p.GenerateAndValidate(listOfPatients);
+            return finalResultList;
+        }
+        [WebMethod]
+        public List<PatientInfo> PatientDataWebMethod()
+        {
+            return listOfPatients;
         }
 
     }

@@ -10,3 +10,10 @@ C:\Users\320068391\Desktop\Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\BedsDat
 C:\Users\320068391\Desktop\Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\BedsDataLib\obj\Debug\BedsDataLib.csproj.CoreCompileInputs.cache
 C:\Users\320068391\Desktop\Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\BedsDataLib\obj\Debug\BedsDataLib.dll
 C:\Users\320068391\Desktop\Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\BedsDataLib\obj\Debug\BedsDataLib.pdb
+C:\MS2G3Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\BedsDataLib\bin\Debug\BedsDataLib.dll
+C:\MS2G3Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\BedsDataLib\bin\Debug\BedsDataLib.pdb
+C:\MS2G3Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\BedsDataLib\obj\Debug\BedsDataLib.csproj.CoreCompileInputs.cache
+C:\MS2G3Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\BedsDataLib\obj\Debug\BedsDataLib.dll
+C:\MS2G3Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\BedsDataLib\obj\Debug\BedsDataLib.pdb
+C:\MS2G3Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\BedsDataLib\bin\Debug\BedsDataLib.dll.CodeAnalysisLog.xml
+C:\MS2G3Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\BedsDataLib\bin\Debug\BedsDataLib.dll.lastcodeanalysissucceeded

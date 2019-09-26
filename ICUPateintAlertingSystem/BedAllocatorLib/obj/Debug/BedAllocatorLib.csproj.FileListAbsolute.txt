@@ -24,3 +24,16 @@ C:\Users\320068391\Desktop\Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\BedAllo
 C:\Users\320068391\Desktop\Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\BedAllocatorLib\obj\Debug\BedAllocatorLib.csproj.CopyComplete
 C:\Users\320068391\Desktop\Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\BedAllocatorLib\obj\Debug\BedAllocatorLib.dll
 C:\Users\320068391\Desktop\Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\BedAllocatorLib\obj\Debug\BedAllocatorLib.pdb
+C:\MS2G3Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\BedAllocatorLib\bin\Debug\BedAllocatorLib.dll
+C:\MS2G3Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\BedAllocatorLib\bin\Debug\BedAllocatorLib.pdb
+C:\MS2G3Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\BedAllocatorLib\bin\Debug\BedsDataLib.dll
+C:\MS2G3Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\BedAllocatorLib\bin\Debug\ICUBedsConfigurationLib.dll
+C:\MS2G3Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\BedAllocatorLib\bin\Debug\PatientInfoLib.dll
+C:\MS2G3Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\BedAllocatorLib\bin\Debug\BedsDataLib.pdb
+C:\MS2G3Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\BedAllocatorLib\bin\Debug\ICUBedsConfigurationLib.pdb
+C:\MS2G3Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\BedAllocatorLib\bin\Debug\PatientInfoLib.pdb
+C:\MS2G3Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\BedAllocatorLib\obj\Debug\BedAllocatorLib.csprojAssemblyReference.cache
+C:\MS2G3Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\BedAllocatorLib\obj\Debug\BedAllocatorLib.csproj.CoreCompileInputs.cache
+C:\MS2G3Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\BedAllocatorLib\obj\Debug\BedAllocatorLib.csproj.CopyComplete
+C:\MS2G3Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\BedAllocatorLib\obj\Debug\BedAllocatorLib.dll
+C:\MS2G3Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\BedAllocatorLib\obj\Debug\BedAllocatorLib.pdb

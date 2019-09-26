@@ -1,0 +1,6 @@
+C:\MS2G3Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\PatientVitalsNetCheckerLib\bin\Debug\PatientVitalsNetCheckerLib.dll
+C:\MS2G3Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\PatientVitalsNetCheckerLib\bin\Debug\PatientVitalsNetCheckerLib.pdb
+C:\MS2G3Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\PatientVitalsNetCheckerLib\obj\Debug\PatientVitalsNetCheckerLib.csprojAssemblyReference.cache
+C:\MS2G3Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\PatientVitalsNetCheckerLib\obj\Debug\PatientVitalsNetCheckerLib.csproj.CoreCompileInputs.cache
+C:\MS2G3Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\PatientVitalsNetCheckerLib\obj\Debug\PatientVitalsNetCheckerLib.dll
+C:\MS2G3Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\PatientVitalsNetCheckerLib\obj\Debug\PatientVitalsNetCheckerLib.pdb

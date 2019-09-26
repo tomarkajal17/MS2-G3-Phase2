@@ -1,0 +1,9 @@
+C:\MS2G3Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\PatientSpo2ValidatorLib\bin\Debug\PatientSpo2ValidatorLib.dll
+C:\MS2G3Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\PatientSpo2ValidatorLib\bin\Debug\PatientSpo2ValidatorLib.pdb
+C:\MS2G3Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\PatientSpo2ValidatorLib\bin\Debug\IPatientParametersValidatorContractLib.dll
+C:\MS2G3Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\PatientSpo2ValidatorLib\bin\Debug\IPatientParametersValidatorContractLib.pdb
+C:\MS2G3Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\PatientSpo2ValidatorLib\obj\Debug\PatientSpo2ValidatorLib.csprojAssemblyReference.cache
+C:\MS2G3Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\PatientSpo2ValidatorLib\obj\Debug\PatientSpo2ValidatorLib.csproj.CoreCompileInputs.cache
+C:\MS2G3Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\PatientSpo2ValidatorLib\obj\Debug\PatientSpo2ValidatorLib.csproj.CopyComplete
+C:\MS2G3Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\PatientSpo2ValidatorLib\obj\Debug\PatientSpo2ValidatorLib.dll
+C:\MS2G3Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\PatientSpo2ValidatorLib\obj\Debug\PatientSpo2ValidatorLib.pdb

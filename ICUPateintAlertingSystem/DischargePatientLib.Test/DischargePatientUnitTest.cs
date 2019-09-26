@@ -14,16 +14,16 @@ namespace DischargePatientLib.Test
         public void Given_PatientID_When_DischargeandDeallocateBed_Then_Patient_Is_Not_Available()
         {
             int patientID = 1;
-            List<BedData> listOfBeds = new List<BedData>();
+            List<BedData> bedListObj = new List<BedData>();
             BedData bedData = new BedData();
-            listOfBeds.Add(bedData);
-            List<PatientInfo> patientsList = new List<PatientInfo>();
+            bedListObj.Add(bedData);
+            List<PatientInfo> patientsListObj = new List<PatientInfo>();
             PatientInfo newPatient = new PatientInfo();
-            patientsList.Add(newPatient);
+            patientsListObj.Add(newPatient);
             DischargePatient dischargePatient = new DischargePatient();
-            dischargePatient.DischargeandDeallocateBed(patientID, listOfBeds, patientsList);     
+            dischargePatient.DischargeandDeallocateBed(patientID, bedListObj, patientsListObj);     
         }
-        [TestMethod]
+        
         public void Given_PatientID_When_DischargeandDeallocateBed_Then_Patient_List_Size_Will_Decreazed_By_1()
         {
             int patientID = 1;

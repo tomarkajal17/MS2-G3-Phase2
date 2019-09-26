@@ -23,7 +23,7 @@ namespace DischargePatientLib
             }
             catch(Exception e)
             {
-                string message = "Arguments are Null";
+                string message = e + "Arguments are Null";
                 throw new ArgumentNullException(message);      
             }
         }

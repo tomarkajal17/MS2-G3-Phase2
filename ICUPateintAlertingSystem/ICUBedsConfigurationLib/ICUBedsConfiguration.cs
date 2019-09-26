@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace ICUBedsConfigurationLib
 {
-    public class ICUBedsConfiguration
+    public class IcuBedsConfiguration
     {
         #region Public Methods
         public List<BedData> ConfigureBeds(int totalNumbersOfBeds)

@@ -8,28 +8,18 @@ namespace PatientInfoLib
 {
     public class PatientInfo
     {
-        #region Private Data Members
-        private int _patientID;
-        private double _spO2;
-        private double _temprature;
-        private int _pulseRate;
-        private int _bedID;
-        #endregion
+        public int  PatientPulseRate { get; set; }
+        public double PatientSpo2 { get; set; }
+
+        public double PatientTemprature { get; set; }
+
+        
 
         #region Properties
-        public int PatientID
-        {
-            get { return _patientID; }
-            set { _patientID = value; }
-        }
+        public int PatientID { get; set; }
 
-        public int BedID
-        {
-            get { return _bedID; }
-            set { _bedID = value; }
-        }
+        public int BedID { get; set; }
         #endregion
-
 
 
     }
