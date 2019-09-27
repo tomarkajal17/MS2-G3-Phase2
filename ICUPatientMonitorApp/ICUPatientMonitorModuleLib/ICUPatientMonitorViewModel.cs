@@ -20,7 +20,7 @@ namespace ICUPatientMonitorModuleLib
     {
         #region DataMember
         private String _bedNo;
-        private List<string> _bedId=new List<string>();
+        private List<string> _bedId = new List<string>();
         private string _dischargePatientId;
         private string _alertPatientText;
 
@@ -43,7 +43,7 @@ namespace ICUPatientMonitorModuleLib
         {
             DischargePatientCommand = new DelegateCommands((object obj) => { this.DischargePatient(); }, (object obj) => { return true; });
             GetPatientInfoCommand = new DelegateCommands((object obj) => { this.GetPatientInfo(); }, (object obj) => { return true; });
-            StartMonitoringCommand = new DelegateCommands((object obj) => { this.StartMonitoringSection();}, (object obj) => { return true; });
+            StartMonitoringCommand = new DelegateCommands((object obj) => { this.StartMonitoringSection(); }, (object obj) => { return true; });
             ConfigureBedsCommand = new DelegateCommands((object obj) => { this.ConfigureBed(); }, (object obj) => { return true; });
             AllocatePatientCommand = new DelegateCommands((object obj) => { this.Allocate(); }, (object obj) => { return true; });
             StopMonitoringCommand = new DelegateCommands((object obj) => { this.StopMonitoringSection(); }, (object obj) => { return true; });
@@ -87,7 +87,8 @@ namespace ICUPatientMonitorModuleLib
         /// BedId of allocated patient
         /// </summary>
         public List<string> BedId
-        {   get => _bedId;
+        {
+            get => _bedId;
 
             set
             {
@@ -130,13 +131,13 @@ namespace ICUPatientMonitorModuleLib
             if (PropertyChanged != null)
                 PropertyChanged.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
-        
+
         /// <summary>
         /// This Method is for Discharging the patient
         /// </summary>
         public void DischargePatient()
         {
-            CUPatientAlertServiceSoapClient cU= new CUPatientAlertServiceSoapClient();
+            CUPatientAlertServiceSoapClient cU = new CUPatientAlertServiceSoapClient();
             string bedId = "";
             int patientId = 0;
             if (DischargePatientId != null && DischargePatientId != "")
@@ -170,7 +171,7 @@ namespace ICUPatientMonitorModuleLib
             {
                 MessageBox.Show("Select Allocated Bed");
             }
-                        
+
         }
         /// <summary>
         /// This Method is for getting the patient information.
@@ -188,10 +189,10 @@ namespace ICUPatientMonitorModuleLib
                     {
                         if (i.BedID.ToString() == bedId)
                         {
-                            MessageBox.Show("The Patient of Bed "+i.BedID+" have patientID="+ i.PatientID
-                                + ", Sop2=" +i.PatientSpo2
-                                +", temperature="+i.PatientTemprature+
-                                ", pulse rate="+i.PatientPulseRate);
+                            MessageBox.Show("The Patient of Bed " + i.BedID + " have patientID=" + i.PatientID
+                                + ", Sop2=" + i.PatientSpo2
+                                + ", temperature=" + i.PatientTemprature +
+                                ", pulse rate=" + i.PatientPulseRate);
                             x = 1;
                             break;
                         }
@@ -218,10 +219,10 @@ namespace ICUPatientMonitorModuleLib
         /// </summary>
         public void StartMonitoringSection()
         {
-             MessageBox.Show("Patient Monitoring Started");
+            MessageBox.Show("Patient Monitoring Started");
             _timer.Tick += InvokeMonitoring;
             _timer.Start();
-                
+
         }
         /// <summary>
         /// This will help the monitoring functionality parrelel with other functionally of UI.
@@ -240,9 +241,9 @@ namespace ICUPatientMonitorModuleLib
         /// </summary>
         private void AlertPatient()
         {
-            foreach (var i in alertOutput)  
+            foreach (var i in alertOutput)
             {
-                if(!(i.healthy))
+                if (!(i.healthy))
                 {
                     AlertPatientText = i.bedID.ToString();
                 }
@@ -262,7 +263,7 @@ namespace ICUPatientMonitorModuleLib
         /// </summary>
         public void ConfigureBed()
         {
-            CUPatientAlertServiceSoapClient cU= new CUPatientAlertServiceSoapClient();
+            CUPatientAlertServiceSoapClient cU = new CUPatientAlertServiceSoapClient();
             if (TotalBeds > 0)
             {
                 bedList = cU.ConfigureBedsWebMethod(TotalBeds);
@@ -279,10 +280,23 @@ namespace ICUPatientMonitorModuleLib
         /// </summary>
         public void Allocate()
         {
+
             CUPatientAlertServiceSoapClient cU = new CUPatientAlertServiceSoapClient();
-            if (bedList != null  && (patientList == null || patientList.Length < bedList.Length))
+            if (bedList != null && (patientList == null || patientList.Length < bedList.Length))
             {
-                if (patientList == null)
+                bool flag = true;
+                if (patientList != null)
+                {
+                    foreach (var i in patientList)
+                    {
+                        if (i.PatientID == PatientID)
+                        {
+                            flag = false;
+                        }
+
+                    }
+                }
+                if (flag && PatientID != 0)
                 {
                     patientList = cU.AllocateBedsWebMethod(PatientID);
                     foreach (var i in patientList)
@@ -292,32 +306,13 @@ namespace ICUPatientMonitorModuleLib
                 }
                 else
                 {
-                    bool f = true;
-                    foreach (var i in patientList)
-                    {
-                        if (i.PatientID == PatientID)
-                        {
-                            f = false;
-                        }
-                    }
-                    if (f && PatientID != 0)
-                    {
-                        patientList = cU.AllocateBedsWebMethod(PatientID);
-                        foreach (var i in patientList)
-                        {
-                            BedNo = i.BedID.ToString();
-                        }
-                    }
-                    else
-                    {
-                        MessageBox.Show("Choose Different PatientId of Integers");
-                    }
+                    MessageBox.Show("Choose Different PatientId of Integers");
                 }
             }
             else
             {
                 MessageBox.Show("No Bed is Available");
-            }            
+            }
         }
     }
 }
