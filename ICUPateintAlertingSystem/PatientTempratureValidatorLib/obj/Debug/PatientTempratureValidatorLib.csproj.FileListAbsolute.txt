@@ -16,3 +16,12 @@ C:\Users\320068391\Downloads\MS2-G3-Phase2-master\ICUPateintAlertingSystem\Patie
 C:\Users\320068391\Downloads\MS2-G3-Phase2-master\ICUPateintAlertingSystem\PatientTempratureValidatorLib\obj\Debug\PatientTempratureValidatorLib.csproj.CopyComplete
 C:\Users\320068391\Downloads\MS2-G3-Phase2-master\ICUPateintAlertingSystem\PatientTempratureValidatorLib\obj\Debug\PatientTempratureValidatorLib.dll
 C:\Users\320068391\Downloads\MS2-G3-Phase2-master\ICUPateintAlertingSystem\PatientTempratureValidatorLib\obj\Debug\PatientTempratureValidatorLib.pdb
+C:\Users\320067257\Desktop\27Sept\New1\MS2-G3-Phase2\ICUPateintAlertingSystem\PatientTempratureValidatorLib\bin\Debug\PatientTempratureValidatorLib.dll
+C:\Users\320067257\Desktop\27Sept\New1\MS2-G3-Phase2\ICUPateintAlertingSystem\PatientTempratureValidatorLib\bin\Debug\PatientTempratureValidatorLib.pdb
+C:\Users\320067257\Desktop\27Sept\New1\MS2-G3-Phase2\ICUPateintAlertingSystem\PatientTempratureValidatorLib\bin\Debug\IPatientParametersValidatorContractLib.dll
+C:\Users\320067257\Desktop\27Sept\New1\MS2-G3-Phase2\ICUPateintAlertingSystem\PatientTempratureValidatorLib\bin\Debug\IPatientParametersValidatorContractLib.pdb
+C:\Users\320067257\Desktop\27Sept\New1\MS2-G3-Phase2\ICUPateintAlertingSystem\PatientTempratureValidatorLib\obj\Debug\PatientTempratureValidatorLib.csprojAssemblyReference.cache
+C:\Users\320067257\Desktop\27Sept\New1\MS2-G3-Phase2\ICUPateintAlertingSystem\PatientTempratureValidatorLib\obj\Debug\PatientTempratureValidatorLib.csproj.CoreCompileInputs.cache
+C:\Users\320067257\Desktop\27Sept\New1\MS2-G3-Phase2\ICUPateintAlertingSystem\PatientTempratureValidatorLib\obj\Debug\PatientTempratureValidatorLib.csproj.CopyComplete
+C:\Users\320067257\Desktop\27Sept\New1\MS2-G3-Phase2\ICUPateintAlertingSystem\PatientTempratureValidatorLib\obj\Debug\PatientTempratureValidatorLib.dll
+C:\Users\320067257\Desktop\27Sept\New1\MS2-G3-Phase2\ICUPateintAlertingSystem\PatientTempratureValidatorLib\obj\Debug\PatientTempratureValidatorLib.pdb

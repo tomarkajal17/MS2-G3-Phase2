@@ -8,7 +8,7 @@ namespace AlertFinalListStructureLib
 {
     public class AlertFinalListStructure
     {
-        public int bedID;
-        public bool healthy;
+        public int BedID { get; set; }
+        public bool Healthy { get; set; }
     }
 }

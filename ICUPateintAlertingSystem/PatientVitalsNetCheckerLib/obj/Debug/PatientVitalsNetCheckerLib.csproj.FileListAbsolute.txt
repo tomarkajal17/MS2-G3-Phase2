@@ -4,3 +4,9 @@ C:\MS2G3Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\PatientVitalsNetCheckerLib
 C:\MS2G3Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\PatientVitalsNetCheckerLib\obj\Debug\PatientVitalsNetCheckerLib.csproj.CoreCompileInputs.cache
 C:\MS2G3Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\PatientVitalsNetCheckerLib\obj\Debug\PatientVitalsNetCheckerLib.dll
 C:\MS2G3Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\PatientVitalsNetCheckerLib\obj\Debug\PatientVitalsNetCheckerLib.pdb
+C:\Users\320067257\Desktop\27Sept\New1\MS2-G3-Phase2\ICUPateintAlertingSystem\PatientVitalsNetCheckerLib\bin\Debug\PatientVitalsNetCheckerLib.dll
+C:\Users\320067257\Desktop\27Sept\New1\MS2-G3-Phase2\ICUPateintAlertingSystem\PatientVitalsNetCheckerLib\bin\Debug\PatientVitalsNetCheckerLib.pdb
+C:\Users\320067257\Desktop\27Sept\New1\MS2-G3-Phase2\ICUPateintAlertingSystem\PatientVitalsNetCheckerLib\obj\Debug\PatientVitalsNetCheckerLib.csprojAssemblyReference.cache
+C:\Users\320067257\Desktop\27Sept\New1\MS2-G3-Phase2\ICUPateintAlertingSystem\PatientVitalsNetCheckerLib\obj\Debug\PatientVitalsNetCheckerLib.csproj.CoreCompileInputs.cache
+C:\Users\320067257\Desktop\27Sept\New1\MS2-G3-Phase2\ICUPateintAlertingSystem\PatientVitalsNetCheckerLib\obj\Debug\PatientVitalsNetCheckerLib.dll
+C:\Users\320067257\Desktop\27Sept\New1\MS2-G3-Phase2\ICUPateintAlertingSystem\PatientVitalsNetCheckerLib\obj\Debug\PatientVitalsNetCheckerLib.pdb

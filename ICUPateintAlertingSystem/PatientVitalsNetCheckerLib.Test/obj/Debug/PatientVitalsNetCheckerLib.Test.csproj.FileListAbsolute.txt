@@ -1,0 +1,16 @@
+C:\MS2G3Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\PatientVitalsNetCheckerLib.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\MS2G3Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\PatientVitalsNetCheckerLib.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\MS2G3Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\PatientVitalsNetCheckerLib.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\MS2G3Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\PatientVitalsNetCheckerLib.Test\bin\Debug\PatientVitalsNetCheckerLib.Test.dll
+C:\MS2G3Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\PatientVitalsNetCheckerLib.Test\bin\Debug\PatientVitalsNetCheckerLib.Test.pdb
+C:\MS2G3Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\PatientVitalsNetCheckerLib.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\MS2G3Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\PatientVitalsNetCheckerLib.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\MS2G3Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\PatientVitalsNetCheckerLib.Test\bin\Debug\PatientVitalsNetCheckerLib.dll
+C:\MS2G3Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\PatientVitalsNetCheckerLib.Test\bin\Debug\PatientVitalsNetCheckerLib.pdb
+C:\MS2G3Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\PatientVitalsNetCheckerLib.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\MS2G3Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\PatientVitalsNetCheckerLib.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\MS2G3Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\PatientVitalsNetCheckerLib.Test\obj\Debug\PatientVitalsNetCheckerLib.Test.csprojAssemblyReference.cache
+C:\MS2G3Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\PatientVitalsNetCheckerLib.Test\obj\Debug\PatientVitalsNetCheckerLib.Test.csproj.CoreCompileInputs.cache
+C:\MS2G3Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\PatientVitalsNetCheckerLib.Test\obj\Debug\PatientVitalsNetCheckerLib.Test.csproj.CopyComplete
+C:\MS2G3Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\PatientVitalsNetCheckerLib.Test\obj\Debug\PatientVitalsNetCheckerLib.Test.dll
+C:\MS2G3Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\PatientVitalsNetCheckerLib.Test\obj\Debug\PatientVitalsNetCheckerLib.Test.pdb

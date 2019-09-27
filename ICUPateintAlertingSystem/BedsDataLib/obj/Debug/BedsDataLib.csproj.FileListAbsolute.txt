@@ -23,3 +23,9 @@ C:\Users\320068391\Downloads\MS2-G3-Phase2-master\ICUPateintAlertingSystem\BedsD
 C:\Users\320068391\Downloads\MS2-G3-Phase2-master\ICUPateintAlertingSystem\BedsDataLib\obj\Debug\BedsDataLib.csproj.CoreCompileInputs.cache
 C:\Users\320068391\Downloads\MS2-G3-Phase2-master\ICUPateintAlertingSystem\BedsDataLib\obj\Debug\BedsDataLib.dll
 C:\Users\320068391\Downloads\MS2-G3-Phase2-master\ICUPateintAlertingSystem\BedsDataLib\obj\Debug\BedsDataLib.pdb
+C:\Users\320067257\Desktop\27Sept\New1\MS2-G3-Phase2\ICUPateintAlertingSystem\BedsDataLib\bin\Debug\BedsDataLib.dll
+C:\Users\320067257\Desktop\27Sept\New1\MS2-G3-Phase2\ICUPateintAlertingSystem\BedsDataLib\bin\Debug\BedsDataLib.pdb
+C:\Users\320067257\Desktop\27Sept\New1\MS2-G3-Phase2\ICUPateintAlertingSystem\BedsDataLib\obj\Debug\BedsDataLib.csprojAssemblyReference.cache
+C:\Users\320067257\Desktop\27Sept\New1\MS2-G3-Phase2\ICUPateintAlertingSystem\BedsDataLib\obj\Debug\BedsDataLib.csproj.CoreCompileInputs.cache
+C:\Users\320067257\Desktop\27Sept\New1\MS2-G3-Phase2\ICUPateintAlertingSystem\BedsDataLib\obj\Debug\BedsDataLib.dll
+C:\Users\320067257\Desktop\27Sept\New1\MS2-G3-Phase2\ICUPateintAlertingSystem\BedsDataLib\obj\Debug\BedsDataLib.pdb

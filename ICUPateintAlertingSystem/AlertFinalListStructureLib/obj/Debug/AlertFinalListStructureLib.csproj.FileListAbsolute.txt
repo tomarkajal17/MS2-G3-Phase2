@@ -3,3 +3,9 @@ C:\Users\320068391\Downloads\MS2-G3-Phase2-master\ICUPateintAlertingSystem\Alert
 C:\Users\320068391\Downloads\MS2-G3-Phase2-master\ICUPateintAlertingSystem\AlertFinalListStructureLib\obj\Debug\AlertFinalListStructureLib.csproj.CoreCompileInputs.cache
 C:\Users\320068391\Downloads\MS2-G3-Phase2-master\ICUPateintAlertingSystem\AlertFinalListStructureLib\obj\Debug\AlertFinalListStructureLib.dll
 C:\Users\320068391\Downloads\MS2-G3-Phase2-master\ICUPateintAlertingSystem\AlertFinalListStructureLib\obj\Debug\AlertFinalListStructureLib.pdb
+C:\Users\320067257\Desktop\27Sept\New1\MS2-G3-Phase2\ICUPateintAlertingSystem\AlertFinalListStructureLib\bin\Debug\AlertFinalListStructureLib.dll
+C:\Users\320067257\Desktop\27Sept\New1\MS2-G3-Phase2\ICUPateintAlertingSystem\AlertFinalListStructureLib\bin\Debug\AlertFinalListStructureLib.pdb
+C:\Users\320067257\Desktop\27Sept\New1\MS2-G3-Phase2\ICUPateintAlertingSystem\AlertFinalListStructureLib\obj\Debug\AlertFinalListStructureLib.csprojAssemblyReference.cache
+C:\Users\320067257\Desktop\27Sept\New1\MS2-G3-Phase2\ICUPateintAlertingSystem\AlertFinalListStructureLib\obj\Debug\AlertFinalListStructureLib.csproj.CoreCompileInputs.cache
+C:\Users\320067257\Desktop\27Sept\New1\MS2-G3-Phase2\ICUPateintAlertingSystem\AlertFinalListStructureLib\obj\Debug\AlertFinalListStructureLib.dll
+C:\Users\320067257\Desktop\27Sept\New1\MS2-G3-Phase2\ICUPateintAlertingSystem\AlertFinalListStructureLib\obj\Debug\AlertFinalListStructureLib.pdb

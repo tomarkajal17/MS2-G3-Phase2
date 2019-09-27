@@ -22,3 +22,9 @@ C:\Users\320068391\Downloads\MS2-G3-Phase2-master\ICUPateintAlertingSystem\Patie
 C:\Users\320068391\Downloads\MS2-G3-Phase2-master\ICUPateintAlertingSystem\PatientInfoLib\obj\Debug\PatientInfoLib.csproj.CoreCompileInputs.cache
 C:\Users\320068391\Downloads\MS2-G3-Phase2-master\ICUPateintAlertingSystem\PatientInfoLib\obj\Debug\PatientInfoLib.dll
 C:\Users\320068391\Downloads\MS2-G3-Phase2-master\ICUPateintAlertingSystem\PatientInfoLib\obj\Debug\PatientInfoLib.pdb
+C:\Users\320067257\Desktop\27Sept\New1\MS2-G3-Phase2\ICUPateintAlertingSystem\PatientInfoLib\bin\Debug\PatientInfoLib.dll
+C:\Users\320067257\Desktop\27Sept\New1\MS2-G3-Phase2\ICUPateintAlertingSystem\PatientInfoLib\bin\Debug\PatientInfoLib.pdb
+C:\Users\320067257\Desktop\27Sept\New1\MS2-G3-Phase2\ICUPateintAlertingSystem\PatientInfoLib\obj\Debug\PatientInfoLib.csprojAssemblyReference.cache
+C:\Users\320067257\Desktop\27Sept\New1\MS2-G3-Phase2\ICUPateintAlertingSystem\PatientInfoLib\obj\Debug\PatientInfoLib.csproj.CoreCompileInputs.cache
+C:\Users\320067257\Desktop\27Sept\New1\MS2-G3-Phase2\ICUPateintAlertingSystem\PatientInfoLib\obj\Debug\PatientInfoLib.dll
+C:\Users\320067257\Desktop\27Sept\New1\MS2-G3-Phase2\ICUPateintAlertingSystem\PatientInfoLib\obj\Debug\PatientInfoLib.pdb

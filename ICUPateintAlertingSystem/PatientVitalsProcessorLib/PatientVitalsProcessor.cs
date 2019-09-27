@@ -48,8 +48,8 @@ namespace PatientVitalsProcessorLib
 
                 PatientVitalsNetChecker netCheckerObj = new PatientVitalsNetChecker();
                 bool finalResult=netCheckerObj.AnalysisResult(parameterArray);
-                alertFinalResultObj.bedID = patient.BedID;
-                alertFinalResultObj.healthy = finalResult;
+                alertFinalResultObj.BedID = patient.BedID;
+                alertFinalResultObj.Healthy = finalResult;
                 FinalResult.Add(alertFinalResultObj);
 
             }

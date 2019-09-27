@@ -49,6 +49,18 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatientVitalsProcessorLib",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlertFinalListStructureLib", "AlertFinalListStructureLib\AlertFinalListStructureLib.csproj", "{3A5F747F-2E61-4A54-B87C-BC27AF10DA5B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlertFinalListStructureLib.Test", "AlertFinalListStructureLib.Test\AlertFinalListStructureLib.Test.csproj", "{4340D43E-AF7B-43A4-A536-D61ABEF976D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatientPulseRateValidatorLib.Test", "PatientPulseRateValidatorLib.Test\PatientPulseRateValidatorLib.Test.csproj", "{76B4455D-1375-4E47-AFE2-4F7EF6174D54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatientSpo2ValidatorLib.Test", "PatientSpo2ValidatorLib.Test\PatientSpo2ValidatorLib.Test.csproj", "{F816A96E-03CA-40FC-B9FB-B54E76472792}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatientTempratureValidatorLib.Test", "..\..\..\..\..\..\..\MS2G3Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\PatientTempratureValidatorLib.Test\PatientTempratureValidatorLib.Test.csproj", "{02E74E69-B137-415F-B612-885C3D6EECE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatientVitalsNetCheckerLib.Test", "..\..\..\..\..\..\..\MS2G3Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\PatientVitalsNetCheckerLib.Test\PatientVitalsNetCheckerLib.Test.csproj", "{EF86F888-CB96-4B85-827D-3B9EEC742C45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatientVitalsProcessorLib.Test", "..\..\..\..\..\..\..\MS2G3Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\PatientVitalsProcessorLib.Test\PatientVitalsProcessorLib.Test.csproj", "{D0199A97-20FD-44AC-8090-801F376CB8A4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -147,6 +159,30 @@ Global
 		{3A5F747F-2E61-4A54-B87C-BC27AF10DA5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A5F747F-2E61-4A54-B87C-BC27AF10DA5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A5F747F-2E61-4A54-B87C-BC27AF10DA5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4340D43E-AF7B-43A4-A536-D61ABEF976D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4340D43E-AF7B-43A4-A536-D61ABEF976D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4340D43E-AF7B-43A4-A536-D61ABEF976D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4340D43E-AF7B-43A4-A536-D61ABEF976D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76B4455D-1375-4E47-AFE2-4F7EF6174D54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76B4455D-1375-4E47-AFE2-4F7EF6174D54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76B4455D-1375-4E47-AFE2-4F7EF6174D54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76B4455D-1375-4E47-AFE2-4F7EF6174D54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F816A96E-03CA-40FC-B9FB-B54E76472792}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F816A96E-03CA-40FC-B9FB-B54E76472792}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F816A96E-03CA-40FC-B9FB-B54E76472792}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F816A96E-03CA-40FC-B9FB-B54E76472792}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02E74E69-B137-415F-B612-885C3D6EECE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02E74E69-B137-415F-B612-885C3D6EECE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02E74E69-B137-415F-B612-885C3D6EECE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02E74E69-B137-415F-B612-885C3D6EECE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF86F888-CB96-4B85-827D-3B9EEC742C45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF86F888-CB96-4B85-827D-3B9EEC742C45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF86F888-CB96-4B85-827D-3B9EEC742C45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF86F888-CB96-4B85-827D-3B9EEC742C45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0199A97-20FD-44AC-8090-801F376CB8A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0199A97-20FD-44AC-8090-801F376CB8A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0199A97-20FD-44AC-8090-801F376CB8A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0199A97-20FD-44AC-8090-801F376CB8A4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

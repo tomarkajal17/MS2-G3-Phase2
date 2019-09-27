@@ -20,3 +20,14 @@ C:\Users\320068391\Downloads\MS2-G3-Phase2-master\ICUPateintAlertingSystem\Patie
 C:\Users\320068391\Downloads\MS2-G3-Phase2-master\ICUPateintAlertingSystem\PatientPulseRateRandomGeneratorLib\obj\Debug\PatientPulseRateRandomGeneratorLib.csproj.CopyComplete
 C:\Users\320068391\Downloads\MS2-G3-Phase2-master\ICUPateintAlertingSystem\PatientPulseRateRandomGeneratorLib\obj\Debug\PatientPulseRateRandomGeneratorLib.dll
 C:\Users\320068391\Downloads\MS2-G3-Phase2-master\ICUPateintAlertingSystem\PatientPulseRateRandomGeneratorLib\obj\Debug\PatientPulseRateRandomGeneratorLib.pdb
+C:\Users\320067257\Desktop\27Sept\New1\MS2-G3-Phase2\ICUPateintAlertingSystem\PatientPulseRateRandomGeneratorLib\bin\Debug\PatientPulseRateRandomGeneratorLib.dll
+C:\Users\320067257\Desktop\27Sept\New1\MS2-G3-Phase2\ICUPateintAlertingSystem\PatientPulseRateRandomGeneratorLib\bin\Debug\PatientPulseRateRandomGeneratorLib.pdb
+C:\Users\320067257\Desktop\27Sept\New1\MS2-G3-Phase2\ICUPateintAlertingSystem\PatientPulseRateRandomGeneratorLib\bin\Debug\IPatientRandomVitalsGeneratorContractLib.dll
+C:\Users\320067257\Desktop\27Sept\New1\MS2-G3-Phase2\ICUPateintAlertingSystem\PatientPulseRateRandomGeneratorLib\bin\Debug\PatientInfoLib.dll
+C:\Users\320067257\Desktop\27Sept\New1\MS2-G3-Phase2\ICUPateintAlertingSystem\PatientPulseRateRandomGeneratorLib\bin\Debug\IPatientRandomVitalsGeneratorContractLib.pdb
+C:\Users\320067257\Desktop\27Sept\New1\MS2-G3-Phase2\ICUPateintAlertingSystem\PatientPulseRateRandomGeneratorLib\bin\Debug\PatientInfoLib.pdb
+C:\Users\320067257\Desktop\27Sept\New1\MS2-G3-Phase2\ICUPateintAlertingSystem\PatientPulseRateRandomGeneratorLib\obj\Debug\PatientPulseRateRandomGeneratorLib.csprojAssemblyReference.cache
+C:\Users\320067257\Desktop\27Sept\New1\MS2-G3-Phase2\ICUPateintAlertingSystem\PatientPulseRateRandomGeneratorLib\obj\Debug\PatientPulseRateRandomGeneratorLib.csproj.CoreCompileInputs.cache
+C:\Users\320067257\Desktop\27Sept\New1\MS2-G3-Phase2\ICUPateintAlertingSystem\PatientPulseRateRandomGeneratorLib\obj\Debug\PatientPulseRateRandomGeneratorLib.csproj.CopyComplete
+C:\Users\320067257\Desktop\27Sept\New1\MS2-G3-Phase2\ICUPateintAlertingSystem\PatientPulseRateRandomGeneratorLib\obj\Debug\PatientPulseRateRandomGeneratorLib.dll
+C:\Users\320067257\Desktop\27Sept\New1\MS2-G3-Phase2\ICUPateintAlertingSystem\PatientPulseRateRandomGeneratorLib\obj\Debug\PatientPulseRateRandomGeneratorLib.pdb

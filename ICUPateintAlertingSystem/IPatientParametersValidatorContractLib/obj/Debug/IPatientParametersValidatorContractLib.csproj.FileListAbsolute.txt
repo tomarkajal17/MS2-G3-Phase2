@@ -4,3 +4,9 @@ C:\MS2G3Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\IPatientParametersValidato
 C:\MS2G3Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\IPatientParametersValidatorContractLib\obj\Debug\IPatientParametersValidatorContractLib.csproj.CoreCompileInputs.cache
 C:\MS2G3Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\IPatientParametersValidatorContractLib\obj\Debug\IPatientParametersValidatorContractLib.dll
 C:\MS2G3Phase2\MS2-G3-Phase2\ICUPateintAlertingSystem\IPatientParametersValidatorContractLib\obj\Debug\IPatientParametersValidatorContractLib.pdb
+C:\Users\320067257\Desktop\27Sept\New1\MS2-G3-Phase2\ICUPateintAlertingSystem\IPatientParametersValidatorContractLib\bin\Debug\IPatientParametersValidatorContractLib.dll
+C:\Users\320067257\Desktop\27Sept\New1\MS2-G3-Phase2\ICUPateintAlertingSystem\IPatientParametersValidatorContractLib\bin\Debug\IPatientParametersValidatorContractLib.pdb
+C:\Users\320067257\Desktop\27Sept\New1\MS2-G3-Phase2\ICUPateintAlertingSystem\IPatientParametersValidatorContractLib\obj\Debug\IPatientParametersValidatorContractLib.csprojAssemblyReference.cache
+C:\Users\320067257\Desktop\27Sept\New1\MS2-G3-Phase2\ICUPateintAlertingSystem\IPatientParametersValidatorContractLib\obj\Debug\IPatientParametersValidatorContractLib.csproj.CoreCompileInputs.cache
+C:\Users\320067257\Desktop\27Sept\New1\MS2-G3-Phase2\ICUPateintAlertingSystem\IPatientParametersValidatorContractLib\obj\Debug\IPatientParametersValidatorContractLib.dll
+C:\Users\320067257\Desktop\27Sept\New1\MS2-G3-Phase2\ICUPateintAlertingSystem\IPatientParametersValidatorContractLib\obj\Debug\IPatientParametersValidatorContractLib.pdb
